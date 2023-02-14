@@ -686,7 +686,24 @@ a {
   border-radius: 100px;
   margin-bottom: 16px;
 }
-.footer__content .news-letter input {
+
+.footer__content div.mce_inline_error {
+  background-color: transparent !important;
+  color: #000 !important;
+  padding-left: 40px !important;
+}
+
+.footer__content div.response {
+  background-color: transparent !important;
+  color: #000 !important;
+  padding-left: 40px !important;
+}
+
+.footer-disclaimer {
+  margin-top: 60px;
+}
+
+.footer__content .news-letter input[type=email] {
   padding: 8px 40px;
   padding-right: 8px;
   width: calc(100% - 192px);
@@ -700,13 +717,13 @@ a {
   line-height: 19px;
   color: rgba(84, 66, 138, 0.4);
 }
-.footer__content .news-letter input::-moz-placeholder {
+.footer__content .news-letter input[type=email]::-moz-placeholder {
   color: currentColor;
 }
-.footer__content .news-letter input::placeholder {
+.footer__content .news-letter input[type=email]::placeholder {
   color: currentColor;
 }
-.footer__content .news-letter a {
+.footer__content .news-letter input[type=submit] {
   background-color: #fff;
   position: absolute;
   top: 50%;
@@ -919,10 +936,10 @@ a {
   .footer__content .news-letter {
     height: 70px;
   }
-  .footer__content .news-letter input {
+  .footer__content .news-letter input[type=email] {
     width: calc(100% - 166px);
   }
-  .footer__content .news-letter a {
+  .footer__content .news-letter input[type=submit] {
     padding: 14px 20px;
   }
 }
@@ -1070,12 +1087,12 @@ a {
   .footer__content .news-letter {
     height: 60px;
   }
-  .footer__content .news-letter input {
+  .footer__content .news-letter input[type=email] {
     width: calc(100% - 110px);
     padding-left: 15px;
     font-size: 14px;
   }
-  .footer__content .news-letter a {
+  .footer__content .news-letter input[type=submit] {
     padding: 14px 10px;
     font-size: 12px;
   }
@@ -1234,12 +1251,12 @@ a {
   .footer__content .news-letter {
     height: 60px;
   }
-  .footer__content .news-letter input {
+  .footer__content .news-letter input[type=email] {
     width: calc(100% - 110px);
     padding-left: 15px;
     font-size: 14px;
   }
-  .footer__content .news-letter a {
+  .footer__content .news-letter input[type=submit] {
     padding: 10px 10px;
     font-size: 12px;
   }
