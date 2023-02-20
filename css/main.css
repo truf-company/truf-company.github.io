@@ -826,7 +826,7 @@ a {
     max-width: 350px;
   }
   .review {
-    margin-bottom: 150px;
+    margin-bottom: 256px;
   }
   .review-slider {
     max-width: 800px;
@@ -1097,6 +1097,9 @@ a {
   .footer__content .news-letter input[type=submit] {
     padding: 14px 10px;
     font-size: 12px;
+  }
+  .review {
+    margin-bottom: 150px;
   }
 }
 @media screen and (max-width: 640px) {
