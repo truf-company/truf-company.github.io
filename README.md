@@ -8,8 +8,8 @@ The site: https://truf-company.github.io/
 bundle install
 ```
 ### Run
-```bundle exec jekyll serve
-
+```
+bundle exec jekyll serve
 ```
 
 ## Next steps:
