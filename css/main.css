@@ -1359,6 +1359,10 @@ a {
   }
 }
 
+.button-waitlist {
+  margin-bottom: 12px;
+}
+
 .link .show-less, .link .find-out-more {
   padding-left: 12px;
 }
