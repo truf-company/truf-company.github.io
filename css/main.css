@@ -348,7 +348,7 @@ a {
   max-width: 640px;
   width: 100%;
 }
-.feature__box--left .top-text {
+.feature__box--left .top-text, .contact h1 {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -356,7 +356,7 @@ a {
   margin-bottom: 24px;
   font-family: var(--secondary);
 }
-.feature__box--left h1 {
+.feature__box--left h1, .contact h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 58px;
@@ -364,7 +364,7 @@ a {
   font-family: var(--secondary);
   margin-bottom: 32px;
 }
-.feature__box--left h1 span {
+.feature__box--left h1 span, .contact h2 span {
   color: var(--green-100);
 }
 .feature__box--left button {
@@ -685,6 +685,7 @@ a {
   letter-spacing: -0.04em;
   font-family: var(--secondary);
   text-align: center;
+  margin-bottom: 18px;
 }
 .footer__content .news-letter {
   max-width: 555px;
@@ -888,7 +889,7 @@ a {
     max-width: 640px;
     width: 100%;
   }
-  .feature__box--left h1 {
+  .feature__box--left h1, .contact h2 {
     font-size: 40px;
     line-height: 48px;
   }
@@ -1041,7 +1042,7 @@ a {
     max-width: 640px;
     width: 100%;
   }
-  .feature__box--left h1 {
+  .feature__box--left h1, .contact h2 {
     font-size: 30px;
     line-height: 38px;
   }
@@ -1211,7 +1212,7 @@ a {
     max-width: 640px;
     width: 100%;
   }
-  .feature__box--left h1 {
+  .feature__box--left h1, .contact h2 {
     font-size: 20px;
     line-height: 28px;
   }
@@ -1296,7 +1297,7 @@ a {
   visibility: visible;
   pointer-events: auto;
 }
-.collapse-content p {
+.collapse-content p, .contact-us-content {
   font-size: 20px;
   line-height: 26px;
   color: var(--gray-100);
@@ -1304,12 +1305,15 @@ a {
   padding-bottom: 32px;
 }
 
-.contact-us-content p {
-  font-size: 20px;
-  line-height: 26px;
-  color: var(--gray-100);
-  letter-spacing: -0.01em;
-  padding-bottom: 32px;
+/*---------------contact---------------*/
+.contact {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.contact a {
+  color: var(--tea-300);
+  font-family: var(--secondary);
 }
 
 @media (max-width: 640px) {
