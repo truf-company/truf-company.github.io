@@ -348,7 +348,7 @@ a {
   max-width: 640px;
   width: 100%;
 }
-.feature__box--left .top-text, .contact h1 {
+.feature__box--left .top-text {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -659,13 +659,6 @@ a {
   border-radius: 24px;
   position: relative;
   padding: 80px 25px;
-}
-.footer__content {
-  max-width: 830px;
-  width: 100%;
-  margin: 0 auto;
-  z-index: 50;
-  position: relative;
 }
 .footer__content h2 {
   font-weight: 400;
@@ -1306,14 +1299,19 @@ a {
 }
 
 /*---------------contact---------------*/
-.contact {
-  margin-top: 120px;
-  margin-bottom: 120px;
+.footer-contact h2, .footer-contact div {
+  text-align: center;
 }
-
 .contact a {
   color: var(--tea-300);
   font-family: var(--secondary);
+}
+.footer-contact {
+  margin-top: 60px;
+  background-color: #f1ebe4;
+}
+.footer-contact .contact-us-content {
+  padding-bottom: 0;
 }
 
 @media (max-width: 640px) {
