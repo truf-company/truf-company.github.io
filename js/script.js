@@ -10,31 +10,35 @@ const swiper = new Swiper(".review-slider", {
   },
 });
 
-//   Accordion
-function openAccordion(id, event) {
-  let targetParent = document.querySelector(id);
-  let targetBox = targetParent.querySelector(".collapse-content");
-  let targetBoxHeight = targetBox.scrollHeight;
-  let scaleImg = targetParent.querySelector(".dial-mobile");
-  let shrinkLines = targetParent.querySelector(".dial-lines");
-  let shrinkBg = targetParent.querySelector(".dial-bg");
-  let currentTarget = event.target.closest(".link");
+window.addEventListener('load', () => {
+  document.querySelectorAll(".feature__box").forEach((element) => {
+    element.querySelectorAll("button.feature-action").forEach((button) => {
+      button.addEventListener("click", () => {
+        console.log("click");
+        const container = element.querySelector(".collapse-content");
+        const targetBoxHeight = container.scrollHeight;
+        const scaleImg = element.querySelector(".dial-mobile");
+        const shrinkLines = element.querySelector(".dial-lines");
+        const shrinkBg = element.querySelector(".dial-bg");
 
-  if (scaleImg) {
-    scaleImg.classList.toggle("scale-it");
-  }
-  if (shrinkBg) {
-    shrinkBg.classList.toggle("shrink-it");
-  }
-  if (shrinkLines) {
-    shrinkLines.classList.toggle("shrink-it");
-  }
+        if (scaleImg) {
+          scaleImg.classList.toggle("scale-it");
+        }
+        if (shrinkBg) {
+          shrinkBg.classList.toggle("shrink-it");
+        }
+        if (shrinkLines) {
+          shrinkLines.classList.toggle("shrink-it");
+        }
 
-  currentTarget.classList.toggle("opened");
-  targetBox.classList.toggle("collapsed");
-  if (targetBox.hasAttribute("style")) {
-    targetBox.removeAttribute("style");
-  } else {
-    targetBox.style.height = targetBoxHeight + "px";
-  }
-}
+        button.classList.toggle("opened");
+        container.classList.toggle("collapsed");
+        if (container.hasAttribute("style")) {
+          container.removeAttribute("style");
+        } else {
+          container.style.height = targetBoxHeight + "px";
+        }
+      });
+    });
+  });
+});

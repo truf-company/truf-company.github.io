@@ -1,0 +1,57 @@
+- title: Start small, but early.
+  headline: With us you can start investing <span>even with ten euros</span>
+  content:
+    - >
+      Starting with a regular savings plan early in life is important because time dramatically
+      enhances capital accumulation as the magic of compounding accelerates. What this means is that
+      delaying your investment start by one year, for example, can delay your reaching financial
+      independence by a number of years.
+    - >
+      Most good investment services are tailored for the wealthy. That means there is nothing much you
+      can do unless you have a lot of money to start with, and even then the fee structure and level
+      will work against small investors.
+    - >
+      For example, one Apple share costs about 150 euros, which is out of reach if one, for example,
+      only has 10 euros of extra money at hand. With us you can start investing even with 10 euros or
+      less by buying fractions of shares.
+  image_dial: index/dial-mobile.png
+
+- class: box-2
+  title: Rinse, lather, repeat.
+  headline: We help you to<span >be <br/>consistent</span>
+  description:
+    - Just like with fitness programs, the secret of becoming a successful investor lies in repetition.
+    - Doing a bit on a regular basis is usually better than making a one-off effort and then losing consistency.
+    - We provide you tools, such as recurring and round-up investments, for making investing a habit.
+  image: index/dollor-card.png
+
+- class: box-3
+  title: Diversify your portfolio.
+  headline: Invest in index funds providing <span>maximum diversification</span>
+  description:
+    - >
+      We all know the old proverb “don’t put all your eggs in one basket”. All available data about how
+      markets have behaved so far indicates that your safest bet in the long-term is to invest in a
+      large number of companies.
+      <div class="collapse-count">
+      <div><h2>9 500+</h2><p>Shares available</p></div>
+      <div><h2>10+</h2><p>Stock exchanges</p></div>
+      </div>
+      In addition, you may invest in various stock indexes, and our strong recommendation is to go to
+      the maximum with diversification, i.e. invest in a global index fund.
+  image_dial: index/graph-mobile.png
+
+- class: box-4
+  title: Think long-term.
+  headline: Patience usually <span>pays off</span>
+  description:
+    - >
+      We all know that stock markets can go both up and down. However, in the long term the stock
+      markets have always gone up and beaten bank interest, bonds and inflation whereas active traders
+      have a much bigger probability of failing.
+    - >
+      Some actually say that the smartest investors are the dead ones, because they don’t let emotions
+      take the better of them and thus they stay on course to reap the end-of-the-day benefits. That’s
+      also why we believe passive long-term investing in a diversified world stock market index fund
+      brings the best results over time.
+  image_dial: index/pay-mobile.png

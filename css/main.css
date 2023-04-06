@@ -586,16 +586,13 @@ ul.navbar__list {
   padding: 32px;
   border-radius: 16px;
 }
-.pricing-boxes .box svg {
-  margin-bottom: 24px;
-}
 .pricing-boxes .box h3 {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   font-family: var(--secondary);
   color: var(--purple-300);
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 .pricing-boxes .box p {
   font-weight: 400;
@@ -603,6 +600,10 @@ ul.navbar__list {
   line-height: 22px;
   color: var(--purple-300);
   opacity: 0.75;
+  margin-bottom: 12px;
+}
+.pricing-boxes .box p:last-child {
+  margin-bottom: 0px;
 }
 .pricing .price-line {
   position: absolute;
@@ -627,16 +628,13 @@ ul.navbar__list {
 .category__boxes {
   padding: 32px;
 }
-.category__boxes svg {
-  margin-bottom: 24px;
-}
 .category__boxes h6 {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   font-family: var(--secondary);
   color: var(--black-200);
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 .category__boxes p {
   font-style: normal;
@@ -660,24 +658,26 @@ ul.navbar__list {
   z-index: 50;
   position: relative;
 }
-.footer__content h2 {
+.footer__content h2,
+.footer__content h3,
+.footer__content .try-it-out {
+  font-family: var(--secondary);
   font-weight: 400;
-  font-size: 48px;
-  line-height: 58px;
+  line-height: 1.5em;
   color: var(--purple-300);
   letter-spacing: -0.04em;
-  font-family: var(--secondary);
-  margin-bottom: 48px;
   text-align: center;
 }
+.footer__content h2,
+.footer__content .try-it-out {
+  margin-bottom: 48px;
+}
+
+.footer__content h2 {
+  font-size: 48px;
+}
 .footer__content h3 {
-  font-weight: 400;
   font-size: 40px;
-  line-height: 58px;
-  color: var(--purple-300);
-  letter-spacing: -0.04em;
-  font-family: var(--secondary);
-  text-align: center;
 }
 .footer__content .news-letter {
   max-width: 555px;
@@ -1291,15 +1291,8 @@ ul.navbar__list {
   visibility: visible;
   pointer-events: auto;
 }
+.contact-us-content p,
 .collapse-content p {
-  font-size: 20px;
-  line-height: 26px;
-  color: var(--gray-100);
-  letter-spacing: -0.01em;
-  padding-bottom: 32px;
-}
-
-.contact-us-content p {
   font-size: 20px;
   line-height: 26px;
   color: var(--gray-100);
@@ -1445,7 +1438,7 @@ ul.navbar__list {
   color: var(--green-100);
   text-align: center;
   letter-spacing: -0.04em;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .blog-header .desc {

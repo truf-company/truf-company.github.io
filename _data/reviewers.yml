@@ -1,0 +1,19 @@
+- name: Albert Einstein
+  image: Albert_Einstein.jpeg
+  title: Nobel Prize laureate
+  quote: Compound interest is the eight wonder of the world. He who understands it, earns it; he who doesn’t, pays it.
+
+- name: Alan Greenspan
+  image: Alan_Greenspan.png
+  title: Former Chairman of the US Federal Reserve
+  quote: Once you start to try and trade the market, I don’t care how good you are, how smart you are, you will not beat an index fund
+
+- name: William Bernstein
+  image: William_Bernstein.jpeg
+  title: Boglehead
+  quote: Does this portfolio seem overly simplistic, even amateurish? Get over it. Over the next few decades, the overwhelming majority of all professional investors will not be able to beat it.
+
+- name: Eugene Fama
+  image: Eugene_Fama.jpg
+  title: Nobel Prize laureate
+  quote: The question is, when is active management good? The answer is never.

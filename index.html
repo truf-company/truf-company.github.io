@@ -1,467 +1,196 @@
 ---
 layout: default
+contact_section: true
 ---
-      <!-- ::::::::::::header:::::::::::: -->
-      <header class="header">
-        <div class="header__left">
-          {% include navbar.html %}
-          <!-- ::::::::::::header  content:::::::::::: -->
-          <div class="header__left--content">
+<!-- ::::::::::::header:::::::::::: -->
+<header class="header">
+    <div class="header__left">
+        {% include navbar.html %}
+        <!-- ::::::::::::header  content:::::::::::: -->
+        <div class="header__left--content">
             <h1>Reach financial freedom <span>with ease</span></h1>
-            <p>Regardless of how much money you start with, we provide the know-how and automated tools to unlock your financial potential!</p>
+            <p>Regardless of how much money you start with, we provide the know-how and automated tools to unlock your
+                financial potential!</p>
             <ul>
-              <li>Years of experience</li>
-              <li>Proven methodology</li>
-              <li>Lowest comparable fees</li>
+                <li>Years of experience</li>
+                <li>Proven methodology</li>
+                <li>Lowest comparable fees</li>
             </ul>
-            <a href="#footer" class="link">Join the waitlist</a>
-          </div>
+            {% include join_the_waitlist.html %}
         </div>
-        <div class="header__right">
-          <img src="./img/hero-bg.png" alt="hero" class="hero-bg" />
-          <img src="./img/hero.png" alt="hero" class="hero" />
-        </div>
-      </header>
-      <!-- ::::::::::::main part of the page:::::::::::: -->
-      <main class="main">
-        <!-- ::::::::::::story:::::::::::: -->
-        <div class="story" id="our-story">
-          <div class="story__heading">
+    </div>
+    <div class="header__right">
+        <img src="./img/hero-bg.png" alt="hero" class="hero-bg"/>
+        <img src="./img/hero.png" alt="hero" class="hero"/>
+    </div>
+</header>
+<!-- ::::::::::::main part of the page:::::::::::: -->
+<main class="main">
+    <!-- ::::::::::::story:::::::::::: -->
+    <div class="story" id="our-story">
+        <div class="story__heading">
             <p class="sub-text">start small</p>
             <h6>think big</h6>
-            <p class="main-text">Invest regularly, unlock the magic of compounding, and make your money work for you without losing your sleep over it!</p>
-          </div>
-          <div class="story__content">
+            <p class="main-text">Invest regularly, unlock the magic of compounding, and make your money work for you
+                without losing your sleep over it!</p>
+        </div>
+        <div class="story__content">
             <div class="story__content--mobile">
-              <img src="./img/think-mobile.png" alt="mobile" class="think-mobile" />
+                <img src="./img/think-mobile.png" alt="mobile" class="think-mobile"/>
             </div>
             <div class="story__content--heading">
-              <h4>We are your guide to success on your lifelong journey in investing</h4>
-              <p>Our mission is to help our customers build financial independence from scratch by providing them with opportunities traditionally reserved for the wealthy. </p>
+                <h4>We are your guide to success on your lifelong journey in investing</h4>
+                <p>Our mission is to help our customers build financial independence from scratch by providing them with
+                    opportunities traditionally reserved for the wealthy.</p>
             </div>
             <div class="story__content--boxes">
-              <div class="box">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-                  <path
-                    fill="#31235C"
-                    d="M21.656 38.156c-.375-.093-.843 0-1.031.469l-3 7.5c-.188.375-.563.375-.656.375-.188.094-.563 0-.75-.375l-2.25-4.5c-.188-.281-.469-.469-.844-.375l-4.781.938a.81.81 0 0 1-.75-.188c-.094-.094-.188-.375-.094-.75l3-7.5c.094-.375-.094-.75-.469-.938-.375-.187-.844 0-.937.376l-3 7.5c-.282.75-.188 1.593.375 2.25.562.656 1.406.937 2.156.75l4.219-.844 2.062 3.937A2.187 2.187 0 0 0 16.875 48h.094c.937 0 1.687-.563 1.968-1.313l3.094-7.5c.188-.468 0-.843-.375-1.03Zm7.688-4.218c.656 0 1.312.093 1.875.093.656 0 1.218-.093 1.687-.375 1.313-.75 1.688-2.812 2.719-3.937 1.125-1.032 3.188-1.313 3.938-2.625.75-1.313 0-3.282.374-4.782.376-1.406 1.97-2.718 1.97-4.312 0-1.5-1.688-2.813-2.063-4.219-.375-1.5.375-3.469-.375-4.781-.75-1.313-2.813-1.594-3.844-2.625-1.125-1.125-1.406-3.188-2.719-3.938-.562-.28-1.125-.374-1.687-.374-.657 0-1.313.093-1.875.093-.469 0-.844 0-1.219-.094C26.812 1.688 25.5 0 24 0c-1.594 0-2.906 1.688-4.313 2.063-.375.093-.75.093-1.125.093-.656 0-1.312-.094-1.875-.094-.656 0-1.218.094-1.687.376-1.313.75-1.688 2.812-2.719 3.937C11.156 7.406 9.094 7.688 8.344 9c-.75 1.313 0 3.281-.375 4.781C7.594 15.187 6 16.5 6 18c0 1.594 1.594 2.906 1.969 4.313.375 1.5-.375 3.468.375 4.78.75 1.22 2.812 1.595 3.937 2.626 1.031 1.125 1.313 3.187 2.625 3.937.563.282 1.125.375 1.688.375.656 0 1.312-.093 1.968-.093.375 0 .75 0 1.125.093C21.095 34.406 22.407 36 24 36c1.5 0 2.813-1.594 4.219-1.969.375-.093.75-.093 1.125-.093Zm-3.75-.188c-.563.375-1.219.75-1.594.75-.469 0-1.125-.375-1.688-.75-.656-.469-1.406-.938-2.25-1.125-.468-.188-.937-.188-1.5-.188h-1.03c-.282 0-.657.094-.938.094-.375 0-.75-.093-.938-.187-.281-.188-.656-.844-.937-1.5-.375-.75-.75-1.5-1.406-2.157-.657-.656-1.407-1.03-2.157-1.406-.656-.281-1.312-.656-1.5-1.031-.187-.281-.187-1.031-.094-1.781 0-.75.094-1.688-.187-2.532-.188-.843-.656-1.593-1.125-2.25-.375-.562-.75-1.218-.75-1.687 0-.375.375-1.031.75-1.594.469-.656.938-1.406 1.125-2.25.281-.844.188-1.781.188-2.531-.094-.75-.094-1.5.093-1.875.188-.375.844-.75 1.5-1.031.75-.281 1.5-.656 2.156-1.313C13.97 6.75 14.345 6 14.72 5.25c.281-.656.656-1.313 1.031-1.5.094-.094.469-.188.844-.188.281 0 .656.094.937.094h1.032c.562 0 1.03 0 1.5-.187.843-.188 1.593-.656 2.25-1.125C22.875 1.969 23.53 1.5 24 1.5c.375 0 1.031.469 1.594.844.656.469 1.406.937 2.25 1.125.468.187.937.187 1.5.187h1.031c.281 0 .656-.094.938-.094.375 0 .75.094.937.188.281.188.656.844.938 1.5.374.75.75 1.5 1.406 2.156.656.657 1.406 1.032 2.156 1.407.656.28 1.313.656 1.5 1.03.188.282.188 1.032.094 1.782 0 .75-.094 1.688.187 2.531.188.844.657 1.594 1.125 2.25.375.563.844 1.219.844 1.594 0 .469-.469 1.125-.844 1.688-.468.656-.937 1.406-1.125 2.25-.281.843-.187 1.78-.187 2.53.093.75.093 1.5-.094 1.876-.188.281-.844.656-1.5.937-.75.375-1.5.75-2.156 1.407-.657.656-1.032 1.406-1.407 2.156-.28.656-.656 1.312-1.03 1.5-.094.093-.47.187-.844.187-.282 0-.657-.093-.938-.093h-1.031c-.563 0-1.032 0-1.5.187-.844.188-1.594.656-2.25 1.125ZM32.156 18c0-4.5-3.75-8.25-8.156-8.25-4.5 0-8.25 3.75-8.25 8.25 0 4.594 3.656 8.25 8.156 8.25 4.407 0 8.25-3.656 8.25-8.25ZM24 24.75c-3.75 0-6.75-3-6.75-6.75 0-3.656 3-6.75 6.75-6.75 3.656 0 6.75 3.094 6.75 6.75 0 3.75-3.094 6.75-6.75 6.75Zm14.813 8.438c-.094-.376-.563-.563-.938-.376-.375.188-.563.563-.469.938l3 7.5a.636.636 0 0 1-.093.75.81.81 0 0 1-.75.188l-4.782-.938c-.375-.094-.656.094-.843.375l-2.25 4.5c-.188.375-.563.375-.75.375-.094 0-.47 0-.657-.375l-3-7.5c-.187-.375-.656-.563-1.031-.469-.375.188-.563.657-.375 1.032l3.094 7.5C29.25 47.438 30 48 30.937 48h.094c.844 0 1.594-.375 1.969-1.219l2.063-3.937 4.218.843c.75.188 1.594-.093 2.157-.75.562-.656.656-1.5.374-2.25l-3-7.5Z" />
-                </svg>
-                <h5>We follow the principles of the Nobel prize winning Modern Portfolio Theory.</h5>
-                <p>Our mission is to help our customers build financial independence from scratch by providing them with opportunities traditionally reserved for the wealthy. </p>
-              </div>
-              <div class="box">
-                <svg xmlns="http://www.w3.org/2000/svg" width="49" height="48" fill="none">
-                  <path
-                    fill="#31235C"
-                    d="M25.156 21.75V8.25a.74.74 0 0 0-.75-.75c-.375 0-.75.375-.75.75v13.5c0 .469.375.75.75.75.469 0 .75-.281.75-.75ZM23 27c0 .844.656 1.5 1.5 1.5.75 0 1.5-.75 1.5-1.5 0-.656-.75-1.5-1.5-1.5-.844 0-1.5.75-1.5 1.5ZM36.125 4.875C33.031 1.781 28.812 0 24.5 0l-.094.094C15.313.094 8 7.5 8 16.594c0 4.031 1.406 7.875 4.031 10.875 1.313 1.5 3.656 4.875 4.5 7.875.094.468.469.75.844.656.375 0 .656-.375.656-.75v-.281C17 31.78 14.47 28.03 13.156 26.53c-2.344-2.718-3.75-6.281-3.75-9.937 0-8.438 6.656-15 15-15.094h.094c3.938 0 7.688 1.594 10.5 4.406 2.813 2.907 4.406 6.657 4.406 10.688 0 3.656-1.312 7.218-3.75 9.937-1.312 1.5-3.843 5.157-4.875 8.625v.094a.9.9 0 0 0 .657.844h.093c.375 0 .657-.282.75-.657.938-3.093 3.282-6.468 4.5-7.968C39.5 24.469 41 20.625 41 16.594c0-4.407-1.781-8.625-4.875-11.719ZM30.406 39H18.5c-.844 0-1.5.656-1.5 1.5v2.063c0 .562.094 1.124.469 1.687l1.593 2.344c.47.843 1.594 1.406 2.532 1.406h5.718c.938 0 2.063-.563 2.532-1.313l1.593-2.343c.282-.469.47-1.219.47-1.688v-2.062c0-.844-.657-1.594-1.5-1.594Zm0 3.656c0 .188-.093.657-.187.844l-1.594 2.344c-.281.375-.938.75-1.313.75h-5.718c-.375 0-1.032-.375-1.219-.75L18.687 43.5c-.187-.281-.28-.563-.28-.844V40.5h11.905l.094 2.156Z" />
-                </svg>
-                <h5>We don’t believe in outsmarting the market</h5>
-                <p>Yes, there are always shares that, at least for some time, perform above any expectations. But for every star there is a bunch of “dogs”. There is little historical evidence that anybody can systematically pick the stars from the dogs. </p>
-              </div>
-              <div class="box">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-                  <path fill="#31235C" d="M24.75 30c0 .469-.375.75-.844.75a.74.74 0 0 1-.75-.75V17.25c0-.375.375-.75.75-.75.469 0 .844.375.844.75V30ZM16.406.75c0-.375.375-.75.75-.75H30.75c.375 0 .75.375.75.75a.74.74 0 0 1-.75.75h-6v7.594c5.156.187 9.844 2.344 13.219 5.906l3.468-3.469a.736.736 0 0 1 1.032 0 .736.736 0 0 1 0 1.031L39 16.125c2.813 3.375 4.5 7.688 4.5 12.375C43.5 39.281 34.687 48 24 48 13.219 48 4.5 39.281 4.5 28.5 4.5 18 12.75 9.469 23.25 9.094V1.5h-6c-.469 0-.75-.281-.75-.75h-.094Zm7.5 45.75C33.938 46.5 42 38.437 42 28.5c0-9.938-8.063-18-18.094-18-9.937 0-18 8.063-18 18 0 9.938 8.063 18 18 18Z" />
-                </svg>
-                <h5>Unlike many other investment apps, we don’t encourage you to focus on short-term trading.</h5>
-                <p>
-                  It is proven to typically lead to below par performance, especially if one takes into account the relatively high cost of frequent trading. <br /><br />
-                  Invest for the long run and enjoy yourself the capital gains that trading platforms typically grab away from you as their fees. 
-                </p>
-              </div>
-              <div class="box">
-                <svg xmlns="http://www.w3.org/2000/svg" width="61" height="48" fill="none">
-                  <path
-                    fill="#31235C"
-                    d="M15.5 30c4.969 0 9-3.938 9-9 0-4.969-4.031-9-9-9-5.063 0-9 4.031-9 9s3.938 9 9 9Zm0-16.5c4.125 0 7.5 3.375 7.5 7.5 0 4.219-3.375 7.5-7.5 7.5-4.219 0-7.5-3.281-7.5-7.5 0-4.125 3.281-7.5 7.5-7.5ZM55.25 0h-34.5c-2.906 0-5.25 2.438-5.25 5.25v3c0 .469.281.75.75.75a.74.74 0 0 0 .75-.75v-3c0-2.063 1.594-3.75 3.75-3.75h34.5A3.761 3.761 0 0 1 59 5.25v28.5c0 2.156-1.688 3.75-3.75 3.75h-22.5a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h22.5c2.813 0 5.25-2.344 5.25-5.25V5.25C60.5 2.437 58.062 0 55.25 0ZM18.5 33h-6c-6.656 0-12 5.438-12 12 0 1.688 1.313 3 3 3h24c1.594 0 3-1.313 3-3 0-6.563-5.438-12-12-12Zm9 13.5h-24A1.48 1.48 0 0 1 2 45c0-5.719 4.688-10.5 10.5-10.5h6C24.219 34.5 29 39.281 29 45c0 .844-.75 1.5-1.5 1.5Zm1.969-30.469a.736.736 0 0 0-1.032 0 .736.736 0 0 0 0 1.032l7.5 7.5c.094.187.282.187.563.187.188 0 .375 0 .469-.188L48.5 13.126v7.125c0 .469.281.75.75.75a.74.74 0 0 0 .75-.75v-9c0-.375-.375-.75-.75-.75h-9a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h7.125L36.5 22.969l-7.031-6.938Z" />
-                </svg>
-                <h5>We provide the tools for long-term success</h5>
-                <p>
-                  Your road to financial freedom starts from setting your goals and available resources using our calculators. <br /><br />
-                  Once that has been done, we’ll provide a dashboard for tracking and benchmarking your performance and correcting your course, if needed. 
-                </p>
-              </div>
-            </div>
-            <img src="./img/linefor-purple-bg.png" alt="lines" class="think-lines" />
-          </div>
-        </div>
-        <!-- ::::::::::::feature:::::::::::: -->
-        <div class="feature" id="features">
-          <div class="feature__box" id="step-1">
-            <div class="feature__box--left">
-              <p class="top-text">Start small, but early.</p>
-              <h1>With us you can start investing <span>even with ten euros</span></h1>
-              <div class="collapse-content">
-                <p>
-                  Starting with a regular savings plan early in life is important because time dramatically enhances capital accumulation as the magic of compounding accelerates. What this means is that delaying your investment start by one year, for example, can delay your reaching financial independence by a number of years. <br /><br />
-                  Most good investment services are tailored for the wealthy. That means there is nothing much you can do unless you have a lot of money to start with, and even then the fee structure and level will work against small investors.
-                  <br /><br />
-                  For example, one Apple share costs about 150 euros, which is out of reach if one, for example, only has 10 euros of extra money at hand. With us you can start investing even with 10 euros or less by buying fractions of shares.
-                </p>
-                <a href="#footer" class="link button-waitlist">Join the waitlist</a>
-              </div>
-              <button class="link" onclick="openAccordion('#step-1', event)">
-                <span class="find-out-more">
-                  Find out how
-                </span>
-                <span class="show-less">
-                  Show less
-                </span>
-              </button>
-            </div>
-            <div class="feature__box--right dial-bg">
-              <img src="./img/dial-mobile.png" alt="mobile" class="dial-mobile" />
-              <img src="./img/dial-bg-lines.png" alt="lines" class="dial-lines" />
-            </div>
-          </div>
-          <div class="feature__box box-2" id="step-2">
-            <div class="feature__box--left">
-              <p class="top-text">Rinse, lather, repeat.</p>
-              <h1>
-                We help you to
-                <span
-                  >be <br />
-                  consistent</span
-                >
-              </h1>
-              <div class="collapse-content">
-                <p>
-                  Just like with fitness programs, the secret of becoming a successful investor lies in repetition.
-                  <br /><br />
-                  Doing a bit on a regular basis is usually better than making a one-off effort and then losing consistency.
-                  <br /><br />
-                  We provide you tools, such as recurring and round-up investments, for making investing a habit.
-                </p>
-                <a href="#footer" class="link button-waitlist">Join the waitlist</a>
-              </div>
-              <button class="link" onclick="openAccordion('#step-2', event)">
-                <span class="find-out-more">
-                  Find out how
-                </span>
-                <span class="show-less">
-                  Show less
-                </span>
-              </button>
-
-            </div>
-            <div class="feature__box--right">
-              <img src="./img/dollor-card.png" alt="card" />
-            </div>
-          </div>
-
-          <div class="feature__box box-3" id="step-3">
-            <div class="feature__box--left">
-              <p class="top-text">Diversify your portfolio.</p>
-              <h1>Invest in index funds providing <span>maximum diversification</span></h1>
-              <div class="collapse-content">
-                <p>We all know the old proverb “don’t put all your eggs in one basket”. All available data about how markets have behaved so far indicates that your safest bet in the long-term is to invest in a large number of companies. </p>
-                <div class="collapse-count">
-                  <div>
-                    <h2>9 500+</h2>
-                    <p>Shares available</p>
-                  </div>
-                  <div>
-                    <h2>10+</h2>
-                    <p>Stock exchanges</p>
-                  </div>
+                <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
+                        <path
+                                fill="#31235C"
+                                d="M21.656 38.156c-.375-.093-.843 0-1.031.469l-3 7.5c-.188.375-.563.375-.656.375-.188.094-.563 0-.75-.375l-2.25-4.5c-.188-.281-.469-.469-.844-.375l-4.781.938a.81.81 0 0 1-.75-.188c-.094-.094-.188-.375-.094-.75l3-7.5c.094-.375-.094-.75-.469-.938-.375-.187-.844 0-.937.376l-3 7.5c-.282.75-.188 1.593.375 2.25.562.656 1.406.937 2.156.75l4.219-.844 2.062 3.937A2.187 2.187 0 0 0 16.875 48h.094c.937 0 1.687-.563 1.968-1.313l3.094-7.5c.188-.468 0-.843-.375-1.03Zm7.688-4.218c.656 0 1.312.093 1.875.093.656 0 1.218-.093 1.687-.375 1.313-.75 1.688-2.812 2.719-3.937 1.125-1.032 3.188-1.313 3.938-2.625.75-1.313 0-3.282.374-4.782.376-1.406 1.97-2.718 1.97-4.312 0-1.5-1.688-2.813-2.063-4.219-.375-1.5.375-3.469-.375-4.781-.75-1.313-2.813-1.594-3.844-2.625-1.125-1.125-1.406-3.188-2.719-3.938-.562-.28-1.125-.374-1.687-.374-.657 0-1.313.093-1.875.093-.469 0-.844 0-1.219-.094C26.812 1.688 25.5 0 24 0c-1.594 0-2.906 1.688-4.313 2.063-.375.093-.75.093-1.125.093-.656 0-1.312-.094-1.875-.094-.656 0-1.218.094-1.687.376-1.313.75-1.688 2.812-2.719 3.937C11.156 7.406 9.094 7.688 8.344 9c-.75 1.313 0 3.281-.375 4.781C7.594 15.187 6 16.5 6 18c0 1.594 1.594 2.906 1.969 4.313.375 1.5-.375 3.468.375 4.78.75 1.22 2.812 1.595 3.937 2.626 1.031 1.125 1.313 3.187 2.625 3.937.563.282 1.125.375 1.688.375.656 0 1.312-.093 1.968-.093.375 0 .75 0 1.125.093C21.095 34.406 22.407 36 24 36c1.5 0 2.813-1.594 4.219-1.969.375-.093.75-.093 1.125-.093Zm-3.75-.188c-.563.375-1.219.75-1.594.75-.469 0-1.125-.375-1.688-.75-.656-.469-1.406-.938-2.25-1.125-.468-.188-.937-.188-1.5-.188h-1.03c-.282 0-.657.094-.938.094-.375 0-.75-.093-.938-.187-.281-.188-.656-.844-.937-1.5-.375-.75-.75-1.5-1.406-2.157-.657-.656-1.407-1.03-2.157-1.406-.656-.281-1.312-.656-1.5-1.031-.187-.281-.187-1.031-.094-1.781 0-.75.094-1.688-.187-2.532-.188-.843-.656-1.593-1.125-2.25-.375-.562-.75-1.218-.75-1.687 0-.375.375-1.031.75-1.594.469-.656.938-1.406 1.125-2.25.281-.844.188-1.781.188-2.531-.094-.75-.094-1.5.093-1.875.188-.375.844-.75 1.5-1.031.75-.281 1.5-.656 2.156-1.313C13.97 6.75 14.345 6 14.72 5.25c.281-.656.656-1.313 1.031-1.5.094-.094.469-.188.844-.188.281 0 .656.094.937.094h1.032c.562 0 1.03 0 1.5-.187.843-.188 1.593-.656 2.25-1.125C22.875 1.969 23.53 1.5 24 1.5c.375 0 1.031.469 1.594.844.656.469 1.406.937 2.25 1.125.468.187.937.187 1.5.187h1.031c.281 0 .656-.094.938-.094.375 0 .75.094.937.188.281.188.656.844.938 1.5.374.75.75 1.5 1.406 2.156.656.657 1.406 1.032 2.156 1.407.656.28 1.313.656 1.5 1.03.188.282.188 1.032.094 1.782 0 .75-.094 1.688.187 2.531.188.844.657 1.594 1.125 2.25.375.563.844 1.219.844 1.594 0 .469-.469 1.125-.844 1.688-.468.656-.937 1.406-1.125 2.25-.281.843-.187 1.78-.187 2.53.093.75.093 1.5-.094 1.876-.188.281-.844.656-1.5.937-.75.375-1.5.75-2.156 1.407-.657.656-1.032 1.406-1.407 2.156-.28.656-.656 1.312-1.03 1.5-.094.093-.47.187-.844.187-.282 0-.657-.093-.938-.093h-1.031c-.563 0-1.032 0-1.5.187-.844.188-1.594.656-2.25 1.125ZM32.156 18c0-4.5-3.75-8.25-8.156-8.25-4.5 0-8.25 3.75-8.25 8.25 0 4.594 3.656 8.25 8.156 8.25 4.407 0 8.25-3.656 8.25-8.25ZM24 24.75c-3.75 0-6.75-3-6.75-6.75 0-3.656 3-6.75 6.75-6.75 3.656 0 6.75 3.094 6.75 6.75 0 3.75-3.094 6.75-6.75 6.75Zm14.813 8.438c-.094-.376-.563-.563-.938-.376-.375.188-.563.563-.469.938l3 7.5a.636.636 0 0 1-.093.75.81.81 0 0 1-.75.188l-4.782-.938c-.375-.094-.656.094-.843.375l-2.25 4.5c-.188.375-.563.375-.75.375-.094 0-.47 0-.657-.375l-3-7.5c-.187-.375-.656-.563-1.031-.469-.375.188-.563.657-.375 1.032l3.094 7.5C29.25 47.438 30 48 30.937 48h.094c.844 0 1.594-.375 1.969-1.219l2.063-3.937 4.218.843c.75.188 1.594-.093 2.157-.75.562-.656.656-1.5.374-2.25l-3-7.5Z"/>
+                    </svg>
+                    <h5>We follow the principles of the Nobel prize winning Modern Portfolio Theory.</h5>
+                    <p>Our mission is to help our customers build financial independence from scratch by providing them
+                        with opportunities traditionally reserved for the wealthy.</p>
                 </div>
-                <p>In addition, you may invest in various stock indexes, and our strong recommendation is to go to the maximum with diversification, i.e. invest in a global index fund.</p>
-                <a href="#footer" class="link button-waitlist">Join the waitlist</a>
-              </div>
-              <button class="link" onclick="openAccordion('#step-3', event)">
-                <span class="find-out-more">
-                  Find out how
-                </span>
-                <span class="show-less">
-                  Show less
-                </span>
-              </button>
+                <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="49" height="48" fill="none">
+                        <path
+                                fill="#31235C"
+                                d="M25.156 21.75V8.25a.74.74 0 0 0-.75-.75c-.375 0-.75.375-.75.75v13.5c0 .469.375.75.75.75.469 0 .75-.281.75-.75ZM23 27c0 .844.656 1.5 1.5 1.5.75 0 1.5-.75 1.5-1.5 0-.656-.75-1.5-1.5-1.5-.844 0-1.5.75-1.5 1.5ZM36.125 4.875C33.031 1.781 28.812 0 24.5 0l-.094.094C15.313.094 8 7.5 8 16.594c0 4.031 1.406 7.875 4.031 10.875 1.313 1.5 3.656 4.875 4.5 7.875.094.468.469.75.844.656.375 0 .656-.375.656-.75v-.281C17 31.78 14.47 28.03 13.156 26.53c-2.344-2.718-3.75-6.281-3.75-9.937 0-8.438 6.656-15 15-15.094h.094c3.938 0 7.688 1.594 10.5 4.406 2.813 2.907 4.406 6.657 4.406 10.688 0 3.656-1.312 7.218-3.75 9.937-1.312 1.5-3.843 5.157-4.875 8.625v.094a.9.9 0 0 0 .657.844h.093c.375 0 .657-.282.75-.657.938-3.093 3.282-6.468 4.5-7.968C39.5 24.469 41 20.625 41 16.594c0-4.407-1.781-8.625-4.875-11.719ZM30.406 39H18.5c-.844 0-1.5.656-1.5 1.5v2.063c0 .562.094 1.124.469 1.687l1.593 2.344c.47.843 1.594 1.406 2.532 1.406h5.718c.938 0 2.063-.563 2.532-1.313l1.593-2.343c.282-.469.47-1.219.47-1.688v-2.062c0-.844-.657-1.594-1.5-1.594Zm0 3.656c0 .188-.093.657-.187.844l-1.594 2.344c-.281.375-.938.75-1.313.75h-5.718c-.375 0-1.032-.375-1.219-.75L18.687 43.5c-.187-.281-.28-.563-.28-.844V40.5h11.905l.094 2.156Z"/>
+                    </svg>
+                    <h5>We don’t believe in outsmarting the market</h5>
+                    <p>Yes, there are always shares that, at least for some time, perform above any expectations. But
+                        for every star there is a bunch of “dogs”. There is little historical evidence that anybody can
+                        systematically pick the stars from the dogs.</p>
+                </div>
+                <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
+                        <path fill="#31235C"
+                              d="M24.75 30c0 .469-.375.75-.844.75a.74.74 0 0 1-.75-.75V17.25c0-.375.375-.75.75-.75.469 0 .844.375.844.75V30ZM16.406.75c0-.375.375-.75.75-.75H30.75c.375 0 .75.375.75.75a.74.74 0 0 1-.75.75h-6v7.594c5.156.187 9.844 2.344 13.219 5.906l3.468-3.469a.736.736 0 0 1 1.032 0 .736.736 0 0 1 0 1.031L39 16.125c2.813 3.375 4.5 7.688 4.5 12.375C43.5 39.281 34.687 48 24 48 13.219 48 4.5 39.281 4.5 28.5 4.5 18 12.75 9.469 23.25 9.094V1.5h-6c-.469 0-.75-.281-.75-.75h-.094Zm7.5 45.75C33.938 46.5 42 38.437 42 28.5c0-9.938-8.063-18-18.094-18-9.937 0-18 8.063-18 18 0 9.938 8.063 18 18 18Z"/>
+                    </svg>
+                    <h5>Unlike many other investment apps, we don’t encourage you to focus on short-term trading.</h5>
+                    <p>
+                        It is proven to typically lead to below par performance, especially if one takes into account
+                        the relatively high cost of frequent trading. <br/><br/>
+                        Invest for the long run and enjoy yourself the capital gains that trading platforms typically
+                        grab away from you as their fees. 
+                    </p>
+                </div>
+                <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="61" height="48" fill="none">
+                        <path
+                                fill="#31235C"
+                                d="M15.5 30c4.969 0 9-3.938 9-9 0-4.969-4.031-9-9-9-5.063 0-9 4.031-9 9s3.938 9 9 9Zm0-16.5c4.125 0 7.5 3.375 7.5 7.5 0 4.219-3.375 7.5-7.5 7.5-4.219 0-7.5-3.281-7.5-7.5 0-4.125 3.281-7.5 7.5-7.5ZM55.25 0h-34.5c-2.906 0-5.25 2.438-5.25 5.25v3c0 .469.281.75.75.75a.74.74 0 0 0 .75-.75v-3c0-2.063 1.594-3.75 3.75-3.75h34.5A3.761 3.761 0 0 1 59 5.25v28.5c0 2.156-1.688 3.75-3.75 3.75h-22.5a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h22.5c2.813 0 5.25-2.344 5.25-5.25V5.25C60.5 2.437 58.062 0 55.25 0ZM18.5 33h-6c-6.656 0-12 5.438-12 12 0 1.688 1.313 3 3 3h24c1.594 0 3-1.313 3-3 0-6.563-5.438-12-12-12Zm9 13.5h-24A1.48 1.48 0 0 1 2 45c0-5.719 4.688-10.5 10.5-10.5h6C24.219 34.5 29 39.281 29 45c0 .844-.75 1.5-1.5 1.5Zm1.969-30.469a.736.736 0 0 0-1.032 0 .736.736 0 0 0 0 1.032l7.5 7.5c.094.187.282.187.563.187.188 0 .375 0 .469-.188L48.5 13.126v7.125c0 .469.281.75.75.75a.74.74 0 0 0 .75-.75v-9c0-.375-.375-.75-.75-.75h-9a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h7.125L36.5 22.969l-7.031-6.938Z"/>
+                    </svg>
+                    <h5>We provide the tools for long-term success</h5>
+                    <p>
+                        Your road to financial freedom starts from setting your goals and available resources using our
+                        calculators. <br/><br/>
+                        Once that has been done, we’ll provide a dashboard for tracking and benchmarking your
+                        performance and correcting your course, if needed. 
+                    </p>
+                </div>
             </div>
-            <div class="feature__box--right dial-bg">
-              <img src="./img/graph-mobile.png" alt="mobile" class="dial-mobile" />
-              <img src="./img/dial-bg-lines.png" alt="lines" class="dial-lines" />
-            </div>
-          </div>
-          <div class="feature__box box-4" id="step-4">
-            <div class="feature__box--left">
-              <p class="top-text">Think long-term.</p>
-              <h1>Patience usually <span>pays off</span></h1>
-              <div class="collapse-content">
-                <p>
-                  We all know that stock markets can go both up and down. However, in the long term the stock markets have always gone up and beaten bank interest, bonds and inflation whereas active traders have a much bigger probability of failing.
-                  <br /><br />
-                  Some actually say that the smartest investors are the dead ones, because they don’t let emotions take the better of them and thus they stay on course to reap the end-of-the-day benefits. That’s also why we believe passive long-term investing in a diversified world stock market index fund brings the best results over time.
-                </p>
-                <a href="#footer" class="link button-waitlist">Join the waitlist</a>
-              </div>
-              <button class="link" onclick="openAccordion('#step-4', event)">
-                <span class="find-out-more">
-                  Find out how
-                </span>
-                <span class="show-less">
-                  Show less
-                </span>
-              </button>
-            </div>
-            <div class="feature__box--right dial-bg">
-              <img src="./img/pay-mobile.png" alt="mobile" class="dial-mobile" />
-              <img src="./img/dial-bg-lines.png" alt="lines" class="dial-lines" />
-            </div>
-          </div>
+            <img src="./img/linefor-purple-bg.png" alt="lines" class="think-lines"/>
         </div>
-        <!-- ::::::::::::reviews:::::::::::: -->
-        <div class="review">
-          <div class="review-slider swiper">
-
+    </div>
+    <!-- ::::::::::::feature:::::::::::: -->
+    <div class="feature" id="features">
+        {% for feature in site.data.features %}
+        <div class="feature__box{% if feature.class %} {{feature.class}}{% endif %}">
+            <section class="feature__box--left">
+                <p class="top-text">{{ feature.title }}</p>
+                <h1>{{ feature.headline }}</h1>
+                <div class="collapse-content">
+                    {% for description in feature.description %}
+                    <p>{{ description }}</p>
+                    {% endfor %}
+                    {% include join_the_waitlist.html %}
+                </div>
+                <button class="link feature-action">
+                    <span class="find-out-more">Find out how</span>
+                    <span class="show-less">Show less</span>
+                </button>
+            </section>
+            {% if feature.image_dial %}
+            <div class="feature__box--right dial-bg">
+                <img src="{{ site.baseurl }}/img/{{ feature.image_dial }}" alt="image 1" class="dial-mobile"/>
+                <img src="{{ site.baseurl }}/img/index/dial-bg-lines.png" alt="image background" class="dial-lines"/>
+            </div>
+            {% elsif feature.image %}
+            <div class="feature__box--right"><img src="{{ site.baseurl }}/img/{{ feature.image }}" alt="image 1"/></div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    <!-- ::::::::::::reviews:::::::::::: -->
+    <div class="review">
+        <div class="review-slider swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide slider-content">
-                <img src="img/quote_profile/Albert_Einstein.jpeg" alt="Albert Einstein" class="reviewer" />
-                <div class="slider-text">
-                  <p>Compound interest is the eight wonder of the world. He who understands it, earns it; he who doesn’t, pays it.</p>
-                  <ul>
-                    <li>Albert Einstein</li>
-                    <li>Nobel Prize laureate</li>
-                  </ul>
+                {% for reviewer in site.data.reviewers %}
+                <div class="swiper-slide slider-content">
+                    <img src="{{ site.baseurl }}/img/quote_profile/{{ reviewer.image }}" alt="{{ reviewer.name }}" class="reviewer"/>
+                    <div class="slider-text">
+                        <p>{{ reviewer.quote }}</p>
+                        <ul>
+                            <li>{{ reviewer.name }}</li>
+                            <li>{{ reviewer.title }}</li>
+                        </ul>
+                    </div>
+                    <img src="{{ site.baseurl }}/img/reviews-lines.png" alt="lines" class="review-line"/>
                 </div>
-                <img src="./img/reviews-lines.png" alt="lines" class="review-line" />
-              </div>
-
-              <div class="swiper-slide slider-content">
-                <img src="img/quote_profile/Alan_Greenspan.png" alt="Alan Greenspan" class="reviewer" />
-                <div class="slider-text">
-                  <p>Once you start to try and trade the market, I don’t care how good you are, how smart you are, you will not beat an index fund</p>
-                  <ul>
-                    <li>Alan Greenspan</li>
-                    <li>Former Chairman of the US Federal Reserve</li>
-                  </ul>
-                </div>
-                <img src="./img/reviews-lines.png" alt="lines" class="review-line" />
-              </div>
-
-              <div class="swiper-slide slider-content">
-                <img src="img/quote_profile/William_Bernstein.jpeg" alt="William Bernstein" class="reviewer" />
-                <div class="slider-text">
-                  <p>Does this portfolio seem overly simplistic, even amateurish? Get over it. Over the next few decades, the overwhelming majority of all professional investors will not be able to beat it.</p>
-                  <ul>
-                    <li>William Bernstein</li>
-                    <li>Boglehead</li>
-                  </ul>
-                </div>
-                <img src="./img/reviews-lines.png" alt="lines" class="review-line" />
-              </div>
-
-              <div class="swiper-slide slider-content">
-                <img src="img/quote_profile/Eugene_Fama.jpg" alt="William Bernstein" class="reviewer" />
-                <div class="slider-text">
-                  <p>The question is, when is active management good? The answer is never.</p>
-                  <ul>
-                    <li>Eugene Fama</li>
-                    <li>Nobel Prize laureate</li>
-                  </ul>
-                </div>
-                <img src="./img/reviews-lines.png" alt="lines" class="review-line" />
-              </div>
-
+                {% endfor %}
             </div>
-          </div>
-          <button class="btn-left">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="0 0 80 80">
-              <path fill="#B89A7C" d="M46.969 40c0 .438-.344.781-.75.781H35.594l4.156 3.938a.746.746 0 0 1 .031 1.062c-.281.313-.75.313-1.062.032l-5.5-5.25A.753.753 0 0 1 33 40c0-.188.063-.375.219-.531l5.5-5.25c.312-.282.781-.282 1.062.031a.746.746 0 0 1-.031 1.063l-4.156 3.937h10.625a.74.74 0 0 1 .75.75Z" />
-              <rect width="78.5" height="78.5" x=".75" y=".75" stroke="#B89A7C" stroke-width="1.5" rx="39.25" />
-            </svg>
-          </button>
-          <button class="btn-right">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="0 0 80 80">
-              <path fill="#B89A7C" d="m41.25 34.219 5.5 5.25c.156.156.25.343.25.562 0 .188-.094.375-.25.532l-5.5 5.25a.746.746 0 0 1-1.063-.032.746.746 0 0 1 .032-1.062l4.156-3.938H33.75a.74.74 0 0 1-.75-.75c0-.437.313-.75.75-.75h10.625l-4.156-3.968a.746.746 0 0 1-.032-1.063c.282-.313.75-.313 1.063-.031Z" />
-              <rect width="78.5" height="78.5" x=".75" y=".75" stroke="#B89A7C" stroke-width="1.5" rx="39.25" />
-            </svg>
-          </button>
         </div>
+        <button class="btn-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="0 0 80 80">
+                <path fill="#B89A7C"
+                      d="M46.969 40c0 .438-.344.781-.75.781H35.594l4.156 3.938a.746.746 0 0 1 .031 1.062c-.281.313-.75.313-1.062.032l-5.5-5.25A.753.753 0 0 1 33 40c0-.188.063-.375.219-.531l5.5-5.25c.312-.282.781-.282 1.062.031a.746.746 0 0 1-.031 1.063l-4.156 3.937h10.625a.74.74 0 0 1 .75.75Z"/>
+                <rect width="78.5" height="78.5" x=".75" y=".75" stroke="#B89A7C" stroke-width="1.5" rx="39.25"/>
+            </svg>
+        </button>
+        <button class="btn-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="0 0 80 80">
+                <path fill="#B89A7C"
+                      d="m41.25 34.219 5.5 5.25c.156.156.25.343.25.562 0 .188-.094.375-.25.532l-5.5 5.25a.746.746 0 0 1-1.063-.032.746.746 0 0 1 .032-1.062l4.156-3.938H33.75a.74.74 0 0 1-.75-.75c0-.437.313-.75.75-.75h10.625l-4.156-3.968a.746.746 0 0 1-.032-1.063c.282-.313.75-.313 1.063-.031Z"/>
+                <rect width="78.5" height="78.5" x=".75" y=".75" stroke="#B89A7C" stroke-width="1.5" rx="39.25"/>
+            </svg>
+        </button>
+    </div>
 
-        <!-- ::::::::::::pricing:::::::::::: -->
-        <div class="pricing" id="pricing">
-          <div class="pricing-img">
-            <img src="./img/pricing-img.png" alt="pricing" class="price-img" />
-          </div>
-          <div class="pricing-text">
+    <!-- ::::::::::::pricing:::::::::::: -->
+    <div class="pricing" id="pricing">
+        <div class="pricing-img">
+            <img src="{{ site.baseurl }}/img/pricing-img.png" alt="pricing" class="price-img"/>
+        </div>
+        <div class="pricing-text">
             <h5>You should never be punished for investing.</h5>
             <p>The only fee we charge is a management fee of less than 1% of the total value of your investments per year.</p>
-          </div>
-          <div class="pricing-boxes">
-            <div class="box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-                <path
-                  fill="#54428A"
-                  d="M21.656 38.156c-.375-.093-.843 0-1.031.469l-3 7.5c-.188.375-.563.375-.656.375-.188.094-.563 0-.75-.375l-2.25-4.5c-.188-.281-.469-.469-.844-.375l-4.781.938a.81.81 0 0 1-.75-.188c-.094-.094-.188-.375-.094-.75l3-7.5c.094-.375-.094-.75-.469-.938-.375-.187-.844 0-.937.376l-3 7.5c-.282.75-.188 1.593.375 2.25.562.656 1.406.937 2.156.75l4.219-.844 2.062 3.937A2.187 2.187 0 0 0 16.875 48h.094c.937 0 1.687-.563 1.968-1.313l3.094-7.5c.188-.468 0-.843-.375-1.03Zm7.688-4.218c.656 0 1.312.093 1.875.093.656 0 1.218-.093 1.687-.375 1.313-.75 1.688-2.812 2.719-3.937 1.125-1.032 3.188-1.313 3.938-2.625.75-1.313 0-3.282.374-4.782.376-1.406 1.97-2.718 1.97-4.312 0-1.5-1.688-2.813-2.063-4.219-.375-1.5.375-3.469-.375-4.781-.75-1.313-2.813-1.594-3.844-2.625-1.125-1.125-1.406-3.188-2.719-3.938-.562-.28-1.125-.374-1.687-.374-.657 0-1.313.093-1.875.093-.469 0-.844 0-1.219-.094C26.812 1.688 25.5 0 24 0c-1.594 0-2.906 1.688-4.313 2.063-.375.093-.75.093-1.125.093-.656 0-1.312-.094-1.875-.094-.656 0-1.218.094-1.687.376-1.313.75-1.688 2.812-2.719 3.937C11.156 7.406 9.094 7.688 8.344 9c-.75 1.313 0 3.281-.375 4.781C7.594 15.187 6 16.5 6 18c0 1.594 1.594 2.906 1.969 4.313.375 1.5-.375 3.468.375 4.78.75 1.22 2.812 1.595 3.937 2.626 1.031 1.125 1.313 3.187 2.625 3.937.563.282 1.125.375 1.688.375.656 0 1.312-.093 1.968-.093.375 0 .75 0 1.125.093C21.095 34.406 22.407 36 24 36c1.5 0 2.813-1.594 4.219-1.969.375-.093.75-.093 1.125-.093Zm-3.75-.188c-.563.375-1.219.75-1.594.75-.469 0-1.125-.375-1.688-.75-.656-.469-1.406-.938-2.25-1.125-.468-.188-.937-.188-1.5-.188h-1.03c-.282 0-.657.094-.938.094-.375 0-.75-.093-.938-.187-.281-.188-.656-.844-.937-1.5-.375-.75-.75-1.5-1.406-2.157-.657-.656-1.407-1.03-2.157-1.406-.656-.281-1.312-.656-1.5-1.031-.187-.281-.187-1.031-.094-1.781 0-.75.094-1.688-.187-2.532-.188-.843-.656-1.593-1.125-2.25-.375-.562-.75-1.218-.75-1.687 0-.375.375-1.031.75-1.594.469-.656.938-1.406 1.125-2.25.281-.844.188-1.781.188-2.531-.094-.75-.094-1.5.093-1.875.188-.375.844-.75 1.5-1.031.75-.281 1.5-.656 2.156-1.313C13.97 6.75 14.345 6 14.72 5.25c.281-.656.656-1.313 1.031-1.5.094-.094.469-.188.844-.188.281 0 .656.094.937.094h1.032c.562 0 1.03 0 1.5-.187.843-.188 1.593-.656 2.25-1.125C22.875 1.969 23.53 1.5 24 1.5c.375 0 1.031.469 1.594.844.656.469 1.406.937 2.25 1.125.468.187.937.187 1.5.187h1.031c.281 0 .656-.094.938-.094.375 0 .75.094.937.188.281.188.656.844.938 1.5.374.75.75 1.5 1.406 2.156.656.657 1.406 1.032 2.156 1.407.656.28 1.313.656 1.5 1.03.188.282.188 1.032.094 1.782 0 .75-.094 1.688.187 2.531.188.844.657 1.594 1.125 2.25.375.563.844 1.219.844 1.594 0 .469-.469 1.125-.844 1.688-.468.656-.937 1.406-1.125 2.25-.281.843-.187 1.78-.187 2.53.093.75.093 1.5-.094 1.876-.188.281-.844.656-1.5.937-.75.375-1.5.75-2.156 1.407-.657.656-1.032 1.406-1.407 2.156-.28.656-.656 1.312-1.03 1.5-.094.093-.47.187-.844.187-.282 0-.657-.093-.938-.093h-1.031c-.563 0-1.032 0-1.5.187-.844.188-1.594.656-2.25 1.125ZM32.156 18c0-4.5-3.75-8.25-8.156-8.25-4.5 0-8.25 3.75-8.25 8.25 0 4.594 3.656 8.25 8.156 8.25 4.407 0 8.25-3.656 8.25-8.25ZM24 24.75c-3.75 0-6.75-3-6.75-6.75 0-3.656 3-6.75 6.75-6.75 3.656 0 6.75 3.094 6.75 6.75 0 3.75-3.094 6.75-6.75 6.75Zm14.813 8.438c-.094-.376-.563-.563-.938-.376-.375.188-.563.563-.469.938l3 7.5a.636.636 0 0 1-.093.75.81.81 0 0 1-.75.188l-4.782-.938c-.375-.094-.656.094-.843.375l-2.25 4.5c-.188.375-.563.375-.75.375-.094 0-.47 0-.657-.375l-3-7.5c-.187-.375-.656-.563-1.031-.469-.375.188-.563.657-.375 1.032l3.094 7.5C29.25 47.438 30 48 30.937 48h.094c.844 0 1.594-.375 1.969-1.219l2.063-3.937 4.218.843c.75.188 1.594-.093 2.157-.75.562-.656.656-1.5.374-2.25l-3-7.5Z" />
-              </svg>
-              <h3>Zero transaction fees</h3>
-              <p>We believe small and frequent transactions are the best way to build a portfolio and therefore don’t want to punish you for investing at your own speed</p>
-            </div>
-            <div class="box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-                <path
-                  fill="#54428A"
-                  d="M31.219 38.813a.736.736 0 0 1-1.032 0L24 32.624l-6.281 6.188a.736.736 0 0 1-1.032 0 .736.736 0 0 1 0-1.032l6.188-6.281-6.188-6.188a.736.736 0 0 1 0-1.03.736.736 0 0 1 1.032 0L24 30.468l6.188-6.188a.736.736 0 0 1 1.03 0 .736.736 0 0 1 0 1.032L25.032 31.5l6.188 6.281a.736.736 0 0 1 0 1.032ZM14.25 0c.375 0 .75.375.75.75V6h18V.75a.74.74 0 0 1 .75-.75c.375 0 .75.375.75.75V6H39c3.281 0 6 2.719 6 6v30c0 3.375-2.719 6-6 6H9c-3.375 0-6-2.625-6-6V12c0-3.281 2.625-6 6-6h4.5V.75a.74.74 0 0 1 .75-.75ZM43.5 18h-39v24c0 2.531 1.969 4.5 4.5 4.5h30c2.438 0 4.5-1.969 4.5-4.5V18Zm-30-6.75V7.5H9c-2.531 0-4.5 2.063-4.5 4.5v4.5h39V12c0-2.438-2.063-4.5-4.5-4.5h-4.5v3.75a.74.74 0 0 1-.75.75c-.469 0-.75-.281-.75-.75V7.5H15v3.75a.74.74 0 0 1-.75.75c-.469 0-.75-.281-.75-.75Z" />
-              </svg>
-              <h3>No fixed fees</h3>
-              <p>You will not be punished for having a small portfolio</p>
-            </div>
-            <div class="box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-                <path fill="#54428A" d="M41.719 6.281a.736.736 0 0 0-1.032 0l-34.5 34.5a.736.736 0 0 0 0 1.032c.094.187.282.187.563.187.188 0 .375 0 .469-.188l34.5-34.5a.736.736 0 0 0 0-1.03ZM12 18c3.281 0 6-2.625 6-6 0-3.281-2.719-5.906-6-5.906-3.375 0-6 2.625-6 5.906 0 3.375 2.625 6 6 6Zm0-10.5c2.438 0 4.5 2.063 4.5 4.5 0 2.531-2.063 4.5-4.5 4.5-2.531 0-4.5-1.969-4.5-4.5 0-2.438 1.969-4.5 4.5-4.5ZM36 30c-3.375 0-6 2.719-6 6 0 3.375 2.625 6 6 6 3.281 0 6-2.625 6-6 0-3.281-2.719-6-6-6Zm0 10.5c-2.531 0-4.5-1.969-4.5-4.5 0-2.438 1.969-4.5 4.5-4.5 2.438 0 4.5 2.063 4.5 4.5 0 2.531-2.063 4.5-4.5 4.5Z" />
-              </svg>
-              <h3>Earn interest</h3>
-              <p>
-                You may have part of your money held with us in cash - either temporarily or for a longer term. <br /><br />
-
-                Depending on the currency it is held in, you will earn 1-2% annual interest.
-              </p>
-            </div>
-          </div>
-          <img src="./img/pricing-lines.png" alt="lines" class="price-line" />
-        </div>
-        <!-- ::::::::::::category:::::::::::: -->
-        <div class="category">
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-              <path
-                fill="#26221E"
-                d="M29.906 2.344A21.41 21.41 0 0 0 24 1.5C11.531 1.5 1.5 11.625 1.5 24A22.446 22.446 0 0 0 24 46.5c12.375 0 22.5-10.031 22.5-22.5 0-1.969-.281-4.031-.844-5.906l1.219-1.219C47.531 19.125 48 21.563 48 24c0 13.313-10.781 24-24 24C10.687 48 0 37.312 0 24 0 10.781 10.688 0 24 0c2.438 0 4.781.469 7.031 1.125l-1.125 1.219Zm9.563 19.218c.187.844.281 1.688.281 2.438 0 8.719-7.125 15.75-15.75 15.75A15.724 15.724 0 0 1 8.25 24c0-8.625 7.031-15.75 15.75-15.75.75 0 1.594.094 2.438.281 0 .375 0 .75.093 1.125v.375A11.639 11.639 0 0 0 24 9.75C16.125 9.75 9.75 16.219 9.75 24c0 7.875 6.375 14.25 14.25 14.25 7.781 0 14.25-6.375 14.25-14.25 0-.844-.094-1.688-.281-2.531h.375c.375.093.75.093 1.125.093ZM24 17.25c.375 0 .844.094 1.313.188l-1.407 1.312C21 18.844 18.75 21.188 18.75 24A5.241 5.241 0 0 0 24 29.25a5.141 5.141 0 0 0 5.156-5.156l1.407-1.407c.093.47.187.938.187 1.313 0 3.75-3.094 6.75-6.75 6.75-3.75 0-6.75-3-6.75-6.75 0-3.656 3-6.75 6.75-6.75Zm.469 7.313a.736.736 0 0 1-1.032 0 .736.736 0 0 1 0-1.032l7.22-7.218-1.22-7.125c-.187-1.22.188-2.438 1.032-3.282L35.25 1.22c.844-.844 2.25-.469 2.531.656l1.782 6.563 6.562 1.78c1.125.282 1.5 1.688.656 2.532l-4.687 4.688c-.844.937-2.063 1.312-3.282 1.125l-7.124-1.22-7.22 7.22ZM36.28 2.25l-4.687 4.781c-.563.469-.75 1.219-.657 1.875L31.97 15l6.187-6.188-1.875-6.562Zm2.813 14.813c.656.093 1.406-.094 1.875-.657l4.781-4.687-6.563-1.875L33 16.03l6.094 1.032Z" />
-            </svg>
-            <h6>Set goals, track and benchmark</h6>
-            <p>Use the best tools and calculators for setting personal goals as well as for tracking and benchmarking your performance.</p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="48" fill="none">
-              <path
-                fill="#26221E"
-                d="M15.75 11.25c-.469 0-.75-.281-.75-.75C15 4.781 19.688 0 25.5 0c5.25 0 9.563 3.938 10.313 8.906.093.469-.188.844-.657.844-.375.094-.75-.188-.843-.563C33.656 4.875 29.905 1.5 25.5 1.5c-5.063 0-9 4.031-9 9a.74.74 0 0 1-.75.75ZM36 24c0-1.594 1.313-3 3-3 1.594 0 3 1.406 3 3 0 1.688-1.406 3-3 3-1.688 0-3-1.313-3-3Zm3 1.5c.75 0 1.5-.656 1.5-1.5 0-.75-.75-1.5-1.5-1.5-.844 0-1.5.75-1.5 1.5 0 .844.656 1.5 1.5 1.5ZM19.5 48h-3c-2.531 0-4.5-1.969-4.5-4.5V39c-3.656-2.719-6-7.031-6-12H4.875A4.842 4.842 0 0 1 0 22.125C0 19.5 2.156 17.25 4.875 17.25h.375c.375 0 .75.375.75.75a.74.74 0 0 1-.75.75h-.375C3 18.75 1.5 20.344 1.5 22.125 1.5 24 3 25.5 4.875 25.5H6C6.75 18 13.219 12 21 12h14.25c1.688-1.781 4.031-3 6.75-3h1.594c1.406 0 2.531 1.406 2.156 2.813L45 15c1.969 1.594 3.656 3.656 4.688 6H51c1.594 0 3 1.406 3 3v9c0 1.688-1.406 3-3 3h-3c-1.594 2.063-3.656 3.75-6 4.781V43.5c0 2.531-2.063 4.5-4.5 4.5h-3c-2.531 0-4.5-1.969-4.5-4.5V42h-6v1.5c0 2.531-2.063 4.5-4.5 4.5Zm16.406-34.5H21c-7.5 0-13.5 6.094-13.5 13.5 0 4.5 2.063 8.344 5.344 10.875l.656.375v5.25c0 1.688 1.313 3 3 3h3c1.594 0 3-1.313 3-3V42h-.75c-.469 0-.75-.281-.75-.75a.74.74 0 0 1 .75-.75h10.5c.375 0 .75.375.75.75a.74.74 0 0 1-.75.75h-.75v1.5c0 1.688 1.313 3 3 3h3c1.594 0 3-1.313 3-3v-3.656l.844-.469c2.156-.938 4.031-2.344 5.437-4.219l.469-.656H51c.75 0 1.5-.656 1.5-1.5v-9c0-.75-.75-1.5-1.5-1.5h-2.25l-.375-.844a13.597 13.597 0 0 0-4.313-5.437l-.843-.563 1.125-4.219c.093-.468-.282-.937-.75-.937H42c-2.25 0-4.219 1.031-5.625 2.531l-.469.469Z" />
-            </svg>
-            <h6>Save automatically</h6>
-            <p>Put money aside via automatic transfers to your investment account as recurring payments or roundups each time you buy something.</p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" fill="none">
-              <path
-                fill="#26221E"
-                d="M21 19.5c-2.531 0-4.5 2.063-4.5 4.5 0 2.531 1.969 4.5 4.5 4.5 2.438 0 4.5-1.969 4.5-4.5 0-2.438-2.063-4.5-4.5-4.5Zm0 7.5c-1.688 0-3-1.313-3-3 0-1.594 1.313-3 3-3 1.594 0 3 1.406 3 3 0 1.688-1.406 3-3 3ZM3.75 19.5H6a.74.74 0 0 0 .75-.75c0-.375-.375-.75-.75-.75H3.75C1.594 18 0 19.688 0 21.75v13.5C0 37.406 1.594 39 3.75 39H6a.74.74 0 0 0 .75-.75c0-.375-.375-.75-.844-.75H3.75c-1.313 0-2.25-.938-2.25-2.25v-13.5c0-1.219.938-2.25 2.25-2.25Zm35.25 0c-2.531 0-4.5 2.063-4.5 4.5 0 2.531 1.969 4.5 4.5 4.5 2.438 0 4.5-1.969 4.5-4.5 0-2.438-2.063-4.5-4.5-4.5Zm0 7.5c-1.688 0-3-1.313-3-3 0-1.594 1.313-3 3-3 1.594 0 3 1.406 3 3 0 1.688-1.406 3-3 3Zm3-18H30.75V.75c0-.375-.375-.75-.75-.75a.74.74 0 0 0-.75.75V9H18c-5.063 0-9 4.031-9 9v21c0 5.063 3.938 9 9 9h24c4.969 0 9-3.938 9-9V18c0-4.969-4.031-9-9-9Zm7.5 28.5h-3.75a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h3.75c0 4.219-3.375 7.5-7.5 7.5H18c-4.219 0-7.5-3.281-7.5-7.5h3.75a.74.74 0 0 0 .75-.75c0-.375-.375-.75-.75-.75H10.5V18c0-4.125 3.281-7.5 7.5-7.5h24c4.125 0 7.5 3.375 7.5 7.5v19.5ZM56.25 18H54a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h2.25c1.219 0 2.25 1.031 2.25 2.25v13.5c0 1.313-1.031 2.25-2.25 2.25H54c-.469 0-.75.281-.75.75 0 .375.281.75.75.75h2.25c2.063 0 3.75-1.594 3.75-3.75v-13.5A3.761 3.761 0 0 0 56.25 18Zm-33 19.5h-4.5a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h4.5a.74.74 0 0 0 .75-.75c0-.375-.375-.75-.75-.75Zm9 0h-4.5a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h4.5a.74.74 0 0 0 .75-.75c0-.375-.375-.75-.75-.75Zm9 0h-4.5a.74.74 0 0 0-.75.75c0 .469.281.75.75.75h4.5a.74.74 0 0 0 .75-.75c0-.375-.375-.75-.75-.75Z" />
-            </svg>
-            <h6>Invest automatically</h6>
-            <p>Make your investment decisions yourself or let our automated robo investor decide for you based on your set preferences.</p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-              <path
-                fill="#26221E"
-                d="M21.656 38.156c-.375-.093-.843 0-1.031.469l-3 7.5c-.188.375-.563.375-.656.375-.188.094-.563 0-.75-.375l-2.25-4.5c-.188-.281-.469-.469-.844-.375l-4.781.938a.81.81 0 0 1-.75-.188c-.094-.094-.188-.375-.094-.75l3-7.5c.094-.375-.094-.75-.469-.938-.375-.187-.844 0-.937.376l-3 7.5c-.282.75-.188 1.593.375 2.25.562.656 1.406.937 2.156.75l4.219-.844 2.062 3.937A2.187 2.187 0 0 0 16.875 48h.094c.937 0 1.687-.563 1.968-1.313l3.094-7.5c.188-.468 0-.843-.375-1.03Zm7.688-4.218c.656 0 1.312.093 1.875.093.656 0 1.218-.093 1.687-.375 1.313-.75 1.688-2.812 2.719-3.937 1.125-1.032 3.188-1.313 3.938-2.625.75-1.313 0-3.282.374-4.782.376-1.406 1.97-2.718 1.97-4.312 0-1.5-1.688-2.813-2.063-4.219-.375-1.5.375-3.469-.375-4.781-.75-1.313-2.813-1.594-3.844-2.625-1.125-1.125-1.406-3.188-2.719-3.938-.562-.28-1.125-.374-1.687-.374-.657 0-1.313.093-1.875.093-.469 0-.844 0-1.219-.094C26.812 1.688 25.5 0 24 0c-1.594 0-2.906 1.688-4.313 2.063-.375.093-.75.093-1.125.093-.656 0-1.312-.094-1.875-.094-.656 0-1.218.094-1.687.376-1.313.75-1.688 2.812-2.719 3.937C11.156 7.406 9.094 7.688 8.344 9c-.75 1.313 0 3.281-.375 4.781C7.594 15.187 6 16.5 6 18c0 1.594 1.594 2.906 1.969 4.313.375 1.5-.375 3.468.375 4.78.75 1.22 2.812 1.595 3.937 2.626 1.031 1.125 1.313 3.187 2.625 3.937.563.282 1.125.375 1.688.375.656 0 1.312-.093 1.968-.093.375 0 .75 0 1.125.093C21.095 34.406 22.407 36 24 36c1.5 0 2.813-1.594 4.219-1.969.375-.093.75-.093 1.125-.093Zm-3.75-.188c-.563.375-1.219.75-1.594.75-.469 0-1.125-.375-1.688-.75-.656-.469-1.406-.938-2.25-1.125-.468-.188-.937-.188-1.5-.188h-1.03c-.282 0-.657.094-.938.094-.375 0-.75-.093-.938-.187-.281-.188-.656-.844-.937-1.5-.375-.75-.75-1.5-1.406-2.157-.657-.656-1.407-1.03-2.157-1.406-.656-.281-1.312-.656-1.5-1.031-.187-.281-.187-1.031-.094-1.781 0-.75.094-1.688-.187-2.532-.188-.843-.656-1.593-1.125-2.25-.375-.562-.75-1.218-.75-1.687 0-.375.375-1.031.75-1.594.469-.656.938-1.406 1.125-2.25.281-.844.188-1.781.188-2.531-.094-.75-.094-1.5.093-1.875.188-.375.844-.75 1.5-1.031.75-.281 1.5-.656 2.156-1.313C13.97 6.75 14.345 6 14.72 5.25c.281-.656.656-1.313 1.031-1.5.094-.094.469-.188.844-.188.281 0 .656.094.937.094h1.032c.562 0 1.03 0 1.5-.187.843-.188 1.593-.656 2.25-1.125C22.875 1.969 23.53 1.5 24 1.5c.375 0 1.031.469 1.594.844.656.469 1.406.937 2.25 1.125.468.187.937.187 1.5.187h1.031c.281 0 .656-.094.938-.094.375 0 .75.094.937.188.281.188.656.844.938 1.5.374.75.75 1.5 1.406 2.156.656.657 1.406 1.032 2.156 1.407.656.28 1.313.656 1.5 1.03.188.282.188 1.032.094 1.782 0 .75-.094 1.688.187 2.531.188.844.657 1.594 1.125 2.25.375.563.844 1.219.844 1.594 0 .469-.469 1.125-.844 1.688-.468.656-.937 1.406-1.125 2.25-.281.843-.187 1.78-.187 2.53.093.75.093 1.5-.094 1.876-.188.281-.844.656-1.5.937-.75.375-1.5.75-2.156 1.407-.657.656-1.032 1.406-1.407 2.156-.28.656-.656 1.312-1.03 1.5-.094.093-.47.187-.844.187-.282 0-.657-.093-.938-.093h-1.031c-.563 0-1.032 0-1.5.187-.844.188-1.594.656-2.25 1.125ZM32.156 18c0-4.5-3.75-8.25-8.156-8.25-4.5 0-8.25 3.75-8.25 8.25 0 4.594 3.656 8.25 8.156 8.25 4.407 0 8.25-3.656 8.25-8.25ZM24 24.75c-3.75 0-6.75-3-6.75-6.75 0-3.656 3-6.75 6.75-6.75 3.656 0 6.75 3.094 6.75 6.75 0 3.75-3.094 6.75-6.75 6.75Zm14.813 8.438c-.094-.376-.563-.563-.938-.376-.375.188-.563.563-.469.938l3 7.5a.636.636 0 0 1-.093.75.81.81 0 0 1-.75.188l-4.782-.938c-.375-.094-.656.094-.843.375l-2.25 4.5c-.188.375-.563.375-.75.375-.094 0-.47 0-.657-.375l-3-7.5c-.187-.375-.656-.563-1.031-.469-.375.188-.563.657-.375 1.032l3.094 7.5C29.25 47.438 30 48 30.937 48h.094c.844 0 1.594-.375 1.969-1.219l2.063-3.937 4.218.843c.75.188 1.594-.093 2.157-.75.562-.656.656-1.5.374-2.25l-3-7.5Z" />
-            </svg>
-            <h6>Full portfolio transparency</h6>
-            <p>Enjoy full portfolio transparency at individual share level and follow your portfolio’s ESG (Environment, Social & Governance) score.</p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-              <path
-                fill="#26221E"
-                d="M21.656 38.156c-.375-.093-.843 0-1.031.469l-3 7.5c-.188.375-.563.375-.656.375-.188.094-.563 0-.75-.375l-2.25-4.5c-.188-.281-.469-.469-.844-.375l-4.781.938a.81.81 0 0 1-.75-.188c-.094-.094-.188-.375-.094-.75l3-7.5c.094-.375-.094-.75-.469-.938-.375-.187-.844 0-.937.376l-3 7.5c-.282.75-.188 1.593.375 2.25.562.656 1.406.937 2.156.75l4.219-.844 2.062 3.937A2.187 2.187 0 0 0 16.875 48h.094c.937 0 1.687-.563 1.968-1.313l3.094-7.5c.188-.468 0-.843-.375-1.03Zm7.688-4.218c.656 0 1.312.093 1.875.093.656 0 1.218-.093 1.687-.375 1.313-.75 1.688-2.812 2.719-3.937 1.125-1.032 3.188-1.313 3.938-2.625.75-1.313 0-3.282.374-4.782.376-1.406 1.97-2.718 1.97-4.312 0-1.5-1.688-2.813-2.063-4.219-.375-1.5.375-3.469-.375-4.781-.75-1.313-2.813-1.594-3.844-2.625-1.125-1.125-1.406-3.188-2.719-3.938-.562-.28-1.125-.374-1.687-.374-.657 0-1.313.093-1.875.093-.469 0-.844 0-1.219-.094C26.812 1.688 25.5 0 24 0c-1.594 0-2.906 1.688-4.313 2.063-.375.093-.75.093-1.125.093-.656 0-1.312-.094-1.875-.094-.656 0-1.218.094-1.687.376-1.313.75-1.688 2.812-2.719 3.937C11.156 7.406 9.094 7.688 8.344 9c-.75 1.313 0 3.281-.375 4.781C7.594 15.187 6 16.5 6 18c0 1.594 1.594 2.906 1.969 4.313.375 1.5-.375 3.468.375 4.78.75 1.22 2.812 1.595 3.937 2.626 1.031 1.125 1.313 3.187 2.625 3.937.563.282 1.125.375 1.688.375.656 0 1.312-.093 1.968-.093.375 0 .75 0 1.125.093C21.095 34.406 22.407 36 24 36c1.5 0 2.813-1.594 4.219-1.969.375-.093.75-.093 1.125-.093Zm-3.75-.188c-.563.375-1.219.75-1.594.75-.469 0-1.125-.375-1.688-.75-.656-.469-1.406-.938-2.25-1.125-.468-.188-.937-.188-1.5-.188h-1.03c-.282 0-.657.094-.938.094-.375 0-.75-.093-.938-.187-.281-.188-.656-.844-.937-1.5-.375-.75-.75-1.5-1.406-2.157-.657-.656-1.407-1.03-2.157-1.406-.656-.281-1.312-.656-1.5-1.031-.187-.281-.187-1.031-.094-1.781 0-.75.094-1.688-.187-2.532-.188-.843-.656-1.593-1.125-2.25-.375-.562-.75-1.218-.75-1.687 0-.375.375-1.031.75-1.594.469-.656.938-1.406 1.125-2.25.281-.844.188-1.781.188-2.531-.094-.75-.094-1.5.093-1.875.188-.375.844-.75 1.5-1.031.75-.281 1.5-.656 2.156-1.313C13.97 6.75 14.345 6 14.72 5.25c.281-.656.656-1.313 1.031-1.5.094-.094.469-.188.844-.188.281 0 .656.094.937.094h1.032c.562 0 1.03 0 1.5-.187.843-.188 1.593-.656 2.25-1.125C22.875 1.969 23.53 1.5 24 1.5c.375 0 1.031.469 1.594.844.656.469 1.406.937 2.25 1.125.468.187.937.187 1.5.187h1.031c.281 0 .656-.094.938-.094.375 0 .75.094.937.188.281.188.656.844.938 1.5.374.75.75 1.5 1.406 2.156.656.657 1.406 1.032 2.156 1.407.656.28 1.313.656 1.5 1.03.188.282.188 1.032.094 1.782 0 .75-.094 1.688.187 2.531.188.844.657 1.594 1.125 2.25.375.563.844 1.219.844 1.594 0 .469-.469 1.125-.844 1.688-.468.656-.937 1.406-1.125 2.25-.281.843-.187 1.78-.187 2.53.093.75.093 1.5-.094 1.876-.188.281-.844.656-1.5.937-.75.375-1.5.75-2.156 1.407-.657.656-1.032 1.406-1.407 2.156-.28.656-.656 1.312-1.03 1.5-.094.093-.47.187-.844.187-.282 0-.657-.093-.938-.093h-1.031c-.563 0-1.032 0-1.5.187-.844.188-1.594.656-2.25 1.125ZM32.156 18c0-4.5-3.75-8.25-8.156-8.25-4.5 0-8.25 3.75-8.25 8.25 0 4.594 3.656 8.25 8.156 8.25 4.407 0 8.25-3.656 8.25-8.25ZM24 24.75c-3.75 0-6.75-3-6.75-6.75 0-3.656 3-6.75 6.75-6.75 3.656 0 6.75 3.094 6.75 6.75 0 3.75-3.094 6.75-6.75 6.75Zm14.813 8.438c-.094-.376-.563-.563-.938-.376-.375.188-.563.563-.469.938l3 7.5a.636.636 0 0 1-.093.75.81.81 0 0 1-.75.188l-4.782-.938c-.375-.094-.656.094-.843.375l-2.25 4.5c-.188.375-.563.375-.75.375-.094 0-.47 0-.657-.375l-3-7.5c-.187-.375-.656-.563-1.031-.469-.375.188-.563.657-.375 1.032l3.094 7.5C29.25 47.438 30 48 30.937 48h.094c.844 0 1.594-.375 1.969-1.219l2.063-3.937 4.218.843c.75.188 1.594-.093 2.157-.75.562-.656.656-1.5.374-2.25l-3-7.5Z" />
-            </svg>
-            <h6>Based on Nobel winning methodology</h6>
-            <p>Our approach is based on the Modern Portfolio Theory and helps to maximize our customers’ long-term gains via index fund investing.</p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-              <path fill="#26221E" d="M14.25 0c.375 0 .75.375.75.75V6h18V.75a.74.74 0 0 1 .75-.75c.375 0 .75.375.75.75V6H39c3.281 0 6 2.719 6 6v30c0 3.375-2.719 6-6 6H9c-3.375 0-6-2.625-6-6V12c0-3.281 2.625-6 6-6h4.5V.75a.74.74 0 0 1 .75-.75ZM43.5 18h-39v24c0 2.531 1.969 4.5 4.5 4.5h30c2.438 0 4.5-1.969 4.5-4.5V18Zm-30-6.75V7.5H9c-2.531 0-4.5 2.063-4.5 4.5v4.5h39V12c0-2.438-2.063-4.5-4.5-4.5h-4.5v3.75a.74.74 0 0 1-.75.75c-.469 0-.75-.281-.75-.75V7.5H15v3.75a.74.74 0 0 1-.75.75c-.469 0-.75-.281-.75-.75Z" />
-            </svg>
-            <h6>Years of experience</h6>
-            <p>
-              As a company we are a startup. However, thanks to our background, we are fully regulated in all of the EU and have close to 30 years of experience.
-            </p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" fill="none">
-              <path
-                fill="#26221E"
-                d="M59.25 12H48.281C44.25 8.156 39 6.094 33.47 6.094L32.625 6c-.938 0-1.781.375-2.531 1.031l-9.188 8.438-.093.094c-1.782 1.687-1.782 4.406-.188 6.28.75.75 2.063 1.407 3.469 1.407.937 0 1.875-.281 2.812-1.031l7.594-7.032c.281-.187.375-.75.094-1.03-.282-.282-.75-.282-1.125 0-8.25 7.5-7.219 6.562-7.782 7.03-1.593 1.22-3.375.282-3.937-.375-1.125-1.218-1.031-3.093.188-4.218l9.187-8.438c.469-.375.938-.656 1.5-.656h.844c5.25 0 10.218 2.063 13.968 5.813l.188.187h2.625V33h-.938a.74.74 0 0 0-.75.75c0 .469.282.75.75.75h1.032c.375 1.688 1.781 3 3.656 3h5.25a.74.74 0 0 0 .75-.75v-24c0-.375-.375-.75-.75-.75Zm-.75 24-4.5.094c-1.313-.094-2.25-1.032-2.25-2.344V13.594l6.75-.094V36ZM31.781 20.625c-.281-.281-.75-.281-1.031.094-.281.281-.188.75.094 1.031l13.968 11.344c1.032.843 1.126 2.25.376 3.187l-.938 1.125c-.75.938-2.156 1.125-3.094.282l-1.125-.844-3.375 4.218c-.468.563-1.125.844-1.875.938-.75.094-1.406-.094-1.968-.563l-2.344-1.78-.469.468c-.844 1.031-2.156 1.781-3.563 1.875-1.312.188-2.718-.281-3.75-1.125L13.97 33H9.75V13.5l2.531-.094.188-.187C16.219 9.563 21.188 7.5 26.438 7.5a.74.74 0 0 0 .75-.75c0-.375-.375-.75-.75-.75-5.532 0-10.782 2.156-14.813 6H.75a.74.74 0 0 0-.75.75v24c0 .469.281.75.75.75H6c1.781 0 3.188-1.313 3.563-3h3.843l8.25 7.5c1.219 1.031 2.719 1.5 4.313 1.5h.656c1.594-.188 3-.844 4.031-1.875l1.125.938c.938.75 1.969 1.03 3.094.937 1.125-.094 2.156-.656 2.906-1.5l2.438-3.094c1.593 1.313 3.937 1.032 5.25-.562l.843-1.125c1.313-1.594 1.032-3.938-.562-5.25L31.781 20.625ZM8.25 33.75C8.25 35.063 7.219 36 6 36H1.5V13.5l6.75.094V33.75Z" />
-            </svg>
-            <h6>Reliable partners</h6>
-            <p>Our broker is a world-leading brokerage service with over $100 billion in assets.</p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-              <path fill="#26221E" d="m43.688 7.875-18-7.5C25.218.187 24.468.094 24 .094c-.563 0-1.313.093-1.781.281l-18 7.5C2.53 8.625 1.5 10.219 1.5 12c0 24.188 17.719 36 22.406 36C28.781 48 46.5 36 46.5 12c0-1.781-1.125-3.375-2.813-4.125ZM23.905 46.5C19.875 46.5 3 35.062 3 12c0-1.219.656-2.344 1.781-2.813l17.907-7.406c.375-.093.937-.281 1.312-.281.281 0 .844.188 1.125.281l18 7.5C44.25 9.75 45 10.781 45 12c0 26.063-19.688 34.5-21.094 34.5Zm9.844-30c-.281 0-.469 0-.563.188L21 29.718l-6.188-6.937c-.187-.187-.374-.281-.562-.281-.469 0-.75.281-.75.75 0 .188 0 .281.188.469l6.75 7.5c.093.187.375.187.562.281a.516.516 0 0 0 .469-.281l12.75-13.5a.516.516 0 0 0 .281-.469c0-.469-.469-.75-.75-.75Z" />
-            </svg>
-            <h6>Top-notch security</h6>
-            <p>We use bank-vault level encryption to keep your data and money safe.</p>
-          </div>
-          <div class="category__boxes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
-              <path fill="#26221E" d="M41.719 6.281a.736.736 0 0 0-1.032 0l-34.5 34.5a.736.736 0 0 0 0 1.032c.094.187.282.187.563.187.188 0 .375 0 .469-.188l34.5-34.5a.736.736 0 0 0 0-1.03ZM12 18c3.281 0 6-2.625 6-6 0-3.281-2.719-5.906-6-5.906-3.375 0-6 2.625-6 5.906 0 3.375 2.625 6 6 6Zm0-10.5c2.438 0 4.5 2.063 4.5 4.5 0 2.531-2.063 4.5-4.5 4.5-2.531 0-4.5-1.969-4.5-4.5 0-2.438 1.969-4.5 4.5-4.5ZM36 30c-3.375 0-6 2.719-6 6 0 3.375 2.625 6 6 6 3.281 0 6-2.625 6-6 0-3.281-2.719-6-6-6Zm0 10.5c-2.531 0-4.5-1.969-4.5-4.5 0-2.438 1.969-4.5 4.5-4.5 2.438 0 4.5 2.063 4.5 4.5 0 2.531-2.063 4.5-4.5 4.5Z" />
-            </svg>
-            <h6>Low, transparent pricing</h6>
-            <p>
-              We charge less than 1% annually, no entry or exit fees. Fully transparent, no hidden fees. <br /><br />
-            </p>
-          </div>
         </div>
 
-      </main>
-      <!-- ::::::::::::footer:::::::::::: -->
-      <footer id="footer" class="footer">
-        <div class="footer__content">
-          <h3>We are finetuning our service.</h3>
-          <h2>Be the first to know when we launch and receive 10 € for investing!</h2>
-          <div class="news-letter">
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_embed_signup">
-              <form action="https://company.us10.list-manage.com/subscribe/post?u=bc6248ff49aa6af281bbeda8b&amp;id=8eefad0bae&amp;f_id=009bcee5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                  <div class="mc-field-group">
-                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your e-mail address" />
-                    <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-                  </div>
-                  <div id="mce-responses" class="clear foot">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bc6248ff49aa6af281bbeda8b_8eefad0bae" tabindex="-1" value=""></div>
-                  <div class="optionalParent">
-                    <div class="clear foot">
-                      <input type="submit" value="Join the waitlist" name="subscribe" id="mc-embedded-subscribe" class="link">
-                    </div>
-                  </div>
-                </div>
-              </form>
+        <div class="pricing-boxes">
+        {% for pricing in site.data.pricing %}
+            <div class="box">
+                <img src="{{ site.baseurl }}/img/index/pricing/{{ pricing.image }}" alt="{{ reviewer.title }}"/>
+                <h3>{{ pricing.title }}</h3>
+                {% for description in pricing.description %}
+                <p>{{ description }}</p>
+                {% endfor %}
             </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
-          </div>
-          <p class="footer-disclaimer">Signing up does not cost anything or oblige you to anything, no credit card data asked. We also promise not to send you any spam emails or share your email address with any third parties.</p>
+        {% endfor %}
         </div>
-        <img src="./img/footer-lines.png" alt="line" class="footer-line" />
-      </footer>
-      <div class="feature">
-        <div class="feature__box box-5" id="step-5">
-          <div class="feature__box--left">
-            <p class="top-text">Contact</p>
-            <h1>
-              Want to get in touch?
-              <span
-              >We would love to hear from you!</span
-              >
-            </h1>
-            <div class="contact-us-content">
-              <p>
-                You can book a <a target="_blank" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1ogueDiQU0KqbG_GO8F_WRkDX8q5pdvPyQ3gvv8gKrMrR0I5ZzR_0LGBa3ApXPikM846jB88b_?gv=true">video call</a> or email us at <a target="_blank" href="mailto:hello@truf.company">hello@truf.company</a>.
-              </p>
-              <p>
-                The Really Useful Finance Company OÜ </br>
-                registration number 16618475
-              </p>
-              <p>
-                Tallinn, Maakri tn 19/1, 10145, Estonia
-              </p>
-            </div>
-          </div>
-          <div class="feature__box--right">
-            <img src="img/house.png" alt="card" width="100%" />
-          </div>
+        <img src="./img/pricing-lines.png" alt="lines" class="price-line"/>
+    </div>
+    <!-- ::::::::::::category:::::::::::: -->
+    <div class="category">
+        {% for category in site.data.index_categories %}
+        <div class="category__boxes">
+            <img src="{{ site.baseurl }}/img/index/categories/{{ category.image }}" alt="{{ category.title }}"/>
+            <h6>{{ category.title }}</h6>
+            <p>{{ category.description }}</p>
         </div>
-      </div>
+        {% endfor %}
+    </div>
+</main>
