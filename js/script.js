@@ -1,5 +1,5 @@
 // Slider
-var swiper = new Swiper(".review-slider", {
+const swiper = new Swiper(".review-slider", {
   loop: true,
   autplay: true,
   spaceBetween: 25,

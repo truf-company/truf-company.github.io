@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<!-- ::::::::::::Blog header:::::::::::: -->
+{% include navbar.html %}
+<header class="blog-header">
+    <div>
+        <small>Learn with us</small>
+        <h1>TRUF blog</h1>
+        {% comment %}
+        The tags are to be ignored for now
+        {% if page.tags != nil and false %}
+        <ul>
+            {% for tag in page.tags %}<li><a href="#">{{ tag }}</a></li>{% endfor %}
+        </ul>
+        {% endif %}
+        {% endcomment %}
+        {% if page.tags == nil %}
+        <p class="desc">Learn more how financial world works and grow your knowledge with us</p>
+        {% endif %}
+    </div>
+</header>
+<!-- :::::blog detail content::::::: -->
+{% if page.readTime %}
+<section class="blog-post">
+    <div class="blog-post-date">
+        <a href="{{ site.baseurl }}/blog">← Back to blog posts</a>
+        <p>{{ page.readTime }} read</p>
+    </div>
+    <h5>{{ page.title }}<br/><span>{{ page.subtitle }}</span></h5>
+    {% if page.largeImage %}<img src="{{ site.baseurl }}/img/{{ page.largeImage }}" alt="posted-Image"/>{% endif %}
+</section>
+{% endif %}
+<!-- ::::::::::::main body of the page:::::::::::: -->
+<main>
+    {{ content }}
+</main>
+<script src="{{ site.baseurl }}/js/scroller.js"></script>

@@ -1,0 +1,14 @@
+---
+layout: blog_default
+---
+<div class="blog-detail">
+    <section class="blog-detail-sidebar">
+        <h6>TABLE OF CONTENTS</h6>
+        {% include toc.html html=content class="sidebar-navigation" sanitize=true %}
+    </section>
+    <section class="blog-detail-content">
+        <article class="blog-section">
+            {{ content }}
+        </article>
+    </section>
+</div>
