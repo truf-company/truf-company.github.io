@@ -1,0 +1,20 @@
+- headline: e follow the principles of the Nobel prize winning Modern Portfolio Theory.
+  content: Our mission is to help our customers build financial independence from scratch by providing them with opportunities traditionally reserved for the wealthy.
+  image: award.svg
+
+- headline: We don’t believe in outsmarting the market
+  content: Yes, there are always shares that, at least for some time, perform above any expectations. But for every star there is a bunch of “dogs”. There is little historical evidence that anybody can systematically pick the stars from the dogs.
+  image: idea.svg
+
+- headline: Unlike many other investment apps, we don’t encourage you to focus on short-term trading.
+  content:
+    - It is proven to typically lead to below par performance, especially if one takes into account the relatively high cost of frequent trading.
+    - Invest for the long run and enjoy yourself the capital gains that trading platforms typically grab away from you as their fees.
+  image: timer.svg
+
+- headline: We provide the tools for long-term success
+  content:
+    - Your road to financial freedom starts from setting your goals and available resources using our calculators.
+    - Once that has been done, we’ll provide a dashboard for tracking and benchmarking your performance and correcting your course, if needed.
+  image: stock_graph.svg
+

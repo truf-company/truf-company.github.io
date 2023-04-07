@@ -304,15 +304,15 @@ ul.navbar__list {
   padding: 30px 32px;
   border-radius: 16px;
 }
-.story__content--boxes .box svg {
-  margin-bottom: 24px;
+.story__content--boxes .box h5,
+.story__content--boxes p {
+  margin-top: 24px;
 }
 .story__content--boxes .box h5 {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   color: var(--purple-400);
-  margin-bottom: 24px;
 }
 .story__content--boxes .box p {
   font-weight: 400;
@@ -600,11 +600,9 @@ ul.navbar__list {
   line-height: 22px;
   color: var(--purple-300);
   opacity: 0.75;
-  margin-bottom: 12px;
+  margin: 12px 0 0;
 }
-.pricing-boxes .box p:last-child {
-  margin-bottom: 0px;
-}
+
 .pricing .price-line {
   position: absolute;
   top: 0;
@@ -794,11 +792,7 @@ ul.navbar__list {
     width: 100%;
     margin: 0 auto;
   }
-  .review .btn-left svg {
-    width: 40px;
-    height: 40px;
-  }
-  .review .btn-right svg {
+  .review button img {
     width: 40px;
     height: 40px;
   }
@@ -849,21 +843,17 @@ ul.navbar__list {
   .review-slider .slider-content .slider-text ul li {
     font-size: 12px;
   }
-  .review .btn-left {
+  .review button {
     top: 110%;
+    transform: translateX(-50%);
+  }
+  .review button.btn-left {
     left: 40%;
-    transform: translateX(-50%);
   }
-  .review .btn-left svg {
-    width: 40px;
-    height: 40px;
-  }
-  .review .btn-right {
-    top: 110%;
+  .review button.btn-right {
     left: 60%;
-    transform: translateX(-50%);
   }
-  .review .btn-right svg {
+  .review .button img {
     width: 40px;
     height: 40px;
   }
