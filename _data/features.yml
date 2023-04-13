@@ -19,7 +19,7 @@
 - class: box-2
   title: Rinse, lather, repeat.
   headline: We help you to <span>be<br/>consistent</span>
-  description:
+  content:
     - Just like with fitness programs, the secret of becoming a successful investor lies in repetition.
     - Doing a bit on a regular basis is usually better than making a one-off effort and then losing consistency.
     - We provide you tools, such as recurring and round-up investments, for making investing a habit.
@@ -28,7 +28,7 @@
 - class: box-3
   title: Diversify your portfolio.
   headline: Invest in index funds providing <span>maximum diversification</span>
-  description:
+  content:
     - >
       We all know the old proverb “don’t put all your eggs in one basket”. All available data about how
       markets have behaved so far indicates that your safest bet in the long-term is to invest in a
@@ -44,7 +44,7 @@
 - class: box-4
   title: Think long-term.
   headline: Patience usually <span>pays off</span>
-  description:
+  content:
     - >
       We all know that stock markets can go both up and down. However, in the long term the stock
       markets have always gone up and beaten bank interest, bonds and inflation whereas active traders

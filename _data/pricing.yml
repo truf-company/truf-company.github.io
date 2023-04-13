@@ -1,13 +1,13 @@
 - title: Zero transaction fees
-  description: We believe small and frequent transactions are the best way to build a portfolio and therefore don’t want to punish you for investing at your own speed
+  content: We believe small and frequent transactions are the best way to build a portfolio and therefore don’t want to punish you for investing at your own speed
   image: award.svg
 
 - title: No fixed fees
-  description: You will not be punished for having a small portfolio
+  content: You will not be punished for having a small portfolio
   image: no_fixed_fee.svg
 
 - title: Earn interest
-  description:
+  content:
     - You may have part of your money held with us in cash - either temporarily or for a longer term.
     - Depending on the currency it is held in, you will earn 1-2% annual interest.
   image: percent.svg

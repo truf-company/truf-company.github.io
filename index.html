@@ -65,7 +65,7 @@ contact_section: true
                 <p class="top-text">{{ feature.title }}</p>
                 <h1>{{ feature.headline }}</h1>
                 <div class="collapse-content">
-                    {% for description in feature.description %}
+                    {% for description in feature.content %}
                     <p>{{ description }}</p>
                     {% endfor %}
                     {% include join_the_waitlist.html %}
@@ -124,7 +124,7 @@ contact_section: true
             <div class="box">
                 <img src="{{ site.baseurl }}/img/index/pricing/{{ pricing.image }}" alt="{{ reviewer.title }}"/>
                 <h3>{{ pricing.title }}</h3>
-                {% for description in pricing.description %}
+                {% for description in pricing.content %}
                 <p>{{ description }}</p>
                 {% endfor %}
             </div>
@@ -138,7 +138,7 @@ contact_section: true
         <div class="category__boxes">
             <img src="{{ site.baseurl }}/img/index/categories/{{ category.image }}" alt="{{ category.title }}"/>
             <h6>{{ category.title }}</h6>
-            <p>{{ category.description }}</p>
+            <p>{{ category.content }}</p>
         </div>
         {% endfor %}
     </div>
