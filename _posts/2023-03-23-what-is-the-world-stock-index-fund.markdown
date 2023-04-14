@@ -6,7 +6,7 @@ subtitle: "Grow Your Investment Portfolio?"
 titleImage: "blog/world-stock.png"
 tags:
     - Investing
-readTime: 7min
+readTime: 3min
 date:   2023-04-01 11:44:52 +02001
 largeImage: "blog/coins.png"
 ---

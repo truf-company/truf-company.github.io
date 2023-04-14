@@ -6,7 +6,7 @@ subtitle: "A Beginner's Guide"
 titleImage: "blog/get-started.png"
 tags:
     - Education
-readTime: 7min
+readTime: 4min
 date:   2023-03-01 11:44:52 +02001
 largeImage: "blog/coins.png"
 ---
