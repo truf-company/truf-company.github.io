@@ -28,7 +28,7 @@ __Real estate__ is another investment option that can provide investors with ren
 __(Global) index funds__
 In short words a global index fund is a type of investment that __tracks the performance of a broad range of stocks from different countries around the world__. These funds provide investors with exposure to a diversified portfolio, spreading their risk across multiple markets and industries. By investing in a global index fund, you can potentially benefit from the growth of various economies and reduce the impact of regional economic downturns on your portfolio.
 
-If you want to get to know more about index funds and __how it can help you grow your investment portfolio, [click HERE](/what-is-the-global-index-fund)__ . Read one of our previous blog posts about that!
+If you want to get to know more about index funds and [how it can help you grow your investment portfolio](/what-is-the-global-index-fund). Read one of our previous blog posts about that!
 
 
 ## Why are global index funds ideal for __young investors like you?__
