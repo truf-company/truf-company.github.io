@@ -7,7 +7,7 @@ titleImage: "blog/get-started.png"
 tags:
     - Education
 readTime: 4min
-date:   2023-03-01 11:44:52 +02001
+date:   2023-04-01 11:44:52 +02001
 largeImage: "blog/coins.png"
 ---
 ## 1. Assess your current financial situation

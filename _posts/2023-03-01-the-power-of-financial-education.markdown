@@ -7,7 +7,7 @@ titleImage: "blog/finicial-image.png"
 tags:
     - Education
 readTime: 7min
-date:   2023-04-01 11:44:52 +02001
+date:   2023-03-01 11:44:52 +02001
 largeImage: "blog/coins.png"
 ---
 ## What is __financial education?__

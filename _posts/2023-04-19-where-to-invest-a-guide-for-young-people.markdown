@@ -3,12 +3,12 @@ layout: blog
 toc: true
 title:  "Where to invest?"
 subtitle: "A guide for young people"
-titleImage: "blog/4th_post.png"
+titleImage: "blog/confused-man.png"
 tags:
     - Investing
 readTime: 4min
-date:   2023-04-13 11:44:52 +02001
-largeImage: "blog/4th_post.png"
+date:   2023-04-19 11:00:52 +02001
+largeImage: "blog/confused-man.png"
 ---
 ## Introduction
 
@@ -27,12 +27,8 @@ __Real estate__ is another investment option that can provide investors with ren
 
 __(Global) index funds__
 In short words a global index fund is a type of investment that __tracks the performance of a broad range of stocks from different countries around the world__. These funds provide investors with exposure to a diversified portfolio, spreading their risk across multiple markets and industries. By investing in a global index fund, you can potentially benefit from the growth of various economies and reduce the impact of regional economic downturns on your portfolio.
-World stock index fund provides you:
 
-<!--- >
-TODO: add link to previous article
-<--->
-If you want to get to know more about index funds and __how it can help you grow your investment portfolio, click [HERE](/what-is-the-world-stock-index-fund/)__ . Read one of our previous blog posts about that!
+If you want to get to know more about index funds and __how it can help you grow your investment portfolio, click [HERE](/what-is-the-global-index-fund/)__ . Read one of our previous blog posts about that!
 
 
 ## Why are global index funds ideal for __young investors like you?__
@@ -51,7 +47,6 @@ Historically, stock markets have tended to grow over the long term. By investing
 
 5. __Easy access__
 Thanks to the rise of online platforms and robo-advisors, investing in global index funds has never been more accessible. As a young European investor, you can easily find a platform that suits your needs and start investing in global index funds with just a few clicks.
-
 
 
 ## How to __really__ get started?

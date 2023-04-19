@@ -3,12 +3,12 @@ layout: blog
 toc: true
 title:  "Discover the Nobel prize-winning"
 subtitle: "Modern Portfolio Theory"
-titleImage: "blog/5th_post.png"
+titleImage: "blog/prize.png"
 tags:
     - Education
 readTime: 6min
 date:   2023-04-13 11:45:52 +02001
-largeImage: "blog/5th_post.png"
+largeImage: "blog/prize.png"
 ---
 ## Introduction
 
@@ -34,7 +34,7 @@ To implement MPT principles in your investment strategy, follow these steps:
 Evaluate your financial goals, investment horizon, and risk appetite to determine your desired level of risk.
 2. __Do your research and construct your portfolio__:
 Investigate various asset classes, such as stocks, bonds, index funds considering their historical returns, risk levels, and correlations with other asset classes. Based on your risk tolerance and desired returns, allocate your investments across different asset classes to create a diversified portfolio that lies on the efficient frontier.
-As you are a young investor who is in the beginning of her/his investor career, you may have the highest return on global index funds investments. Read more about global index funds and where to invest from our previous blog posts [HERE](/what-is-the-world-stock-index-fund/) and [HERE](/where-to-invest-a-guide-for-young-people/) to make the best decision.
+As you are a young investor who is in the beginning of her/his investor career, you may have the highest return on global index funds investments. Read more about global index funds and where to invest from our previous blog posts [HERE](/what-is-the-global-index-fund/) and [HERE](/where-to-invest-a-guide-for-young-people/) to make the best decision.
 
 3. __Monitor and rebalance__:
 Regularly review your portfolio to ensure it remains aligned with your risk tolerance and financial goals. Rebalance your asset allocation periodically to maintain the optimal balance between risk and return.
