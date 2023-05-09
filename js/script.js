@@ -1,7 +1,7 @@
 // Slider
 const swiper = new Swiper(".review-slider", {
   loop: true,
-  autplay: true,
+  autoplay: true,
   spaceBetween: 25,
   speed: 1200,
   navigation: {

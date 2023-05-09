@@ -24,16 +24,50 @@ contact_section: true
         <img src="{{ site.baseurl }}/img/index/header/hero.png" alt="hero" class="hero"/>
     </div>
 </header>
+<div class="story__heading">
+    <p class="sub-text">start small</p>
+    <h6>think big</h6>
+    <p class="main-text">Invest your extra money regularly to <b>unlock the magic of compounding,
+        and make your money work for you</b> without losing your sleep over it.
+        Even small sums put aside can build considerable future wealth if you start early enough.</p>
+</div>
+<div class="demo">
+    <div class="demo-text">
+        <p>When does your financial freedom start?</p>
+    </div>
+    <div class="demo-content sub-text">
+        <video autoplay muted playsinline loop>
+            <source src="{{ site.baseurl }}/img/index/calculator.m4v" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<!-- ::::::::::::reviews:::::::::::: -->
+<div class="review">
+    <div class="review-slider swiper">
+        <div class="swiper-wrapper">
+            {% for reviewer in site.data.reviewers %}
+            <div class="swiper-slide slider-content">
+                <img src="{{ site.baseurl }}/img/index/reviews/{{ reviewer.image }}" alt="{{ reviewer.name }}" class="reviewer"/>
+                <div class="slider-text">
+                    <p>{{ reviewer.quote }}</p>
+                    <ul>
+                        <li>{{ reviewer.name }}</li>
+                        <li>{{ reviewer.title }}</li>
+                    </ul>
+                </div>
+                <img src="{{ site.baseurl }}/img/index/reviews/reviews-lines.png" alt="lines" class="review-line"/>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <button class="btn-left"><img src="{{ site.baseurl }}/img/index/reviews/arrow_left.svg"/></button>
+    <button class="btn-right"><img src="{{ site.baseurl }}/img/index/reviews/arrow_right.svg"/></button>
+</div>
 <!-- ::::::::::::main part of the page:::::::::::: -->
 <main class="main">
     <!-- ::::::::::::story:::::::::::: -->
     <div class="story" id="our-story">
-        <div class="story__heading">
-            <p class="sub-text">start small</p>
-            <h6>think big</h6>
-            <p class="main-text">Invest regularly, unlock the magic of compounding, and make your money work for you
-                without losing your sleep over it!</p>
-        </div>
         <div class="story__content">
             <div class="story__content--mobile">
                 <img src="{{ site.baseurl }}/img/index/story/think-mobile.png" alt="mobile" class="think-mobile"/>
@@ -57,6 +91,31 @@ contact_section: true
             <img src="{{ site.baseurl }}/img/index/story/linefor-purple-bg.png" alt="lines" class="think-lines"/>
         </div>
     </div>
+
+    <!-- ::::::::::::pricing:::::::::::: -->
+    <div class="pricing" id="pricing">
+        <div class="pricing-img">
+            <img src="{{ site.baseurl }}/img/pricing-img.png"x alt="pricing" class="price-img"/>
+        </div>
+        <div class="pricing-text">
+            <h5>You should never be punished for investing.</h5>
+            <p>The only fee we charge is a management fee of less than 1% of the total value of your investments per year.</p>
+        </div>
+
+        <div class="pricing-boxes">
+        {% for pricing in site.data.pricing %}
+            <div class="box">
+                <img src="{{ site.baseurl }}/img/index/pricing/{{ pricing.image }}" alt="{{ reviewer.title }}"/>
+                <h3>{{ pricing.title }}</h3>
+                {% for description in pricing.content %}
+                <p>{{ description }}</p>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        </div>
+        <img src="./img/pricing-lines.png" alt="lines" class="price-line"/>
+    </div>
+
     <!-- ::::::::::::feature:::::::::::: -->
     <div class="feature" id="features">
         {% for feature in site.data.features %}
@@ -86,52 +145,7 @@ contact_section: true
         </div>
         {% endfor %}
     </div>
-    <!-- ::::::::::::reviews:::::::::::: -->
-    <div class="review">
-        <div class="review-slider swiper">
-            <div class="swiper-wrapper">
-                {% for reviewer in site.data.reviewers %}
-                <div class="swiper-slide slider-content">
-                    <img src="{{ site.baseurl }}/img/index/reviews/{{ reviewer.image }}" alt="{{ reviewer.name }}" class="reviewer"/>
-                    <div class="slider-text">
-                        <p>{{ reviewer.quote }}</p>
-                        <ul>
-                            <li>{{ reviewer.name }}</li>
-                            <li>{{ reviewer.title }}</li>
-                        </ul>
-                    </div>
-                    <img src="{{ site.baseurl }}/img/index/reviews/reviews-lines.png" alt="lines" class="review-line"/>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        <button class="btn-left"><img src="{{ site.baseurl }}/img/index/reviews/arrow_left.svg"/></button>
-        <button class="btn-right"><img src="{{ site.baseurl }}/img/index/reviews/arrow_right.svg"/></button>
-    </div>
 
-    <!-- ::::::::::::pricing:::::::::::: -->
-    <div class="pricing" id="pricing">
-        <div class="pricing-img">
-            <img src="{{ site.baseurl }}/img/pricing-img.png" alt="pricing" class="price-img"/>
-        </div>
-        <div class="pricing-text">
-            <h5>You should never be punished for investing.</h5>
-            <p>The only fee we charge is a management fee of less than 1% of the total value of your investments per year.</p>
-        </div>
-
-        <div class="pricing-boxes">
-        {% for pricing in site.data.pricing %}
-            <div class="box">
-                <img src="{{ site.baseurl }}/img/index/pricing/{{ pricing.image }}" alt="{{ reviewer.title }}"/>
-                <h3>{{ pricing.title }}</h3>
-                {% for description in pricing.content %}
-                <p>{{ description }}</p>
-                {% endfor %}
-            </div>
-        {% endfor %}
-        </div>
-        <img src="./img/pricing-lines.png" alt="lines" class="price-line"/>
-    </div>
     <!-- ::::::::::::category:::::::::::: -->
     <div class="category">
         {% for category in site.data.index_categories %}
