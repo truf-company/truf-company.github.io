@@ -1417,10 +1417,9 @@ ul.navbar__list {
 }
 
 #our-story {
+  padding-top: 300px;
   scroll-margin-top: 60px;
 }
-
-
 
 /* --------blog header--------- */
 .blog-header {
