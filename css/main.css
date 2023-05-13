@@ -4,7 +4,7 @@
   --black-200: #26221e;
   --black-300: #071009;
   --black-400: #362617;
-  --green-100: #428a4e;
+  --green-100: #D5E7D8;
   --green-200: #e4f1e6;
   --tea-100: #f5f3f1;
   --tea-200: #ebe5de;
@@ -299,7 +299,7 @@ ul.navbar__list {
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 12px;
   z-index: 20;
   position: relative;
@@ -563,9 +563,10 @@ ul.navbar__list {
 /*---------------pricing---------------*/
 .pricing {
   position: relative;
-  background-color: var(--purple-300);
+  background-color: var(--green-100);
   border-radius: 24px;
   padding: 0 25px 80px 25px;
+  margin-top: 150px;
 }
 .pricing-img {
   max-width: 1095px;
@@ -594,7 +595,7 @@ ul.navbar__list {
   line-height: 58px;
   font-family: var(--secondary);
   letter-spacing: -0.04em;
-  color: #fff;
+  color: #428A4E;
   text-align: center;
 }
 .pricing-text p {
@@ -604,7 +605,7 @@ ul.navbar__list {
   line-height: 33px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #fff;
+  color: #428A4E;
 }
 .pricing-boxes {
   z-index: 40;
@@ -650,10 +651,22 @@ ul.navbar__list {
   z-index: 10;
 }
 
+.category-text {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  margin-top: 65px;
+  font-size: 44px;
+  line-height: 77px;
+  color: var(--black-400);
+  font-family: var(--secondary);
+  text-align: center;
+}
+
 .category {
   max-width: 1095px;
   width: 100%;
-  margin: 128px auto;
+  margin: 64px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;

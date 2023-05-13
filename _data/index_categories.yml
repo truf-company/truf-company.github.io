@@ -1,35 +1,23 @@
 - title: Set goals, track and benchmark
-  content: Use the best tools and calculators for setting personal goals as well as for tracking and benchmarking your performance.
+  content: Use the best tools and calculators for setting personal goals as well as for tracking your performance and benchmarking it with others.
   image: target.svg
 
-- title: Save automatically
-  content: Put money aside via automatic transfers to your investment account as recurring payments or roundups each time you buy something.
-  image: piggy_bank.svg
-
-- title: Invest automatically
-  content: Make your investment decisions yourself or let our automated robo investor decide for you based on your set preferences.
+- title: Save and invest automatically
+  content: Put money aside via automatic transfers to your investment account as recurring payments or roundups each time you buy something. Make your investment decisions yourself or let our automated robo investor work for you.
   image: robot_head.svg
 
 - title: Full portfolio transparency
-  content: Enjoy full portfolio transparency at individual share level and follow your portfolio’s ESG (Environment, Social & Governance) score.
-  image: award.svg
+  content: Enjoy full portfolio transparency by using our unique see-through feature that tells you at individual share level what is indirectly included in your fund investments. Follow your portfolio’s Environment, Social & Governance score.
+  image: handshake.svg
 
 - title: Based on Nobel winning methodology
   content: Our approach is based on the Modern Portfolio Theory and helps to maximize our customers long-term gains via index fund investing.
   image: award.svg
 
-- title: Years of experience
-  content: As a company we are a startup. However, thanks to our background, we are fully regulated in all of the EU and have close to 30 years of experience.
-  image: calendar.svg
-
-- title: Reliable partners
-  content: Our broker is a world-leading brokerage service with over $100 billion in assets.
-  image: handshake.svg
-
 - title: Top-notch security
-  content: We use bank-vault level encryption to keep your data and money safe.
+  content: We use bank-vault level encryption to keep your data and money safe. Your money and investments are also kept separately from our business operations so they are safe no matter what.
   image: shield.svg
 
-- title: Low, transparent pricing
-  content: We charge less than 1% annually, no entry or exit fees. Fully transparent, no hidden fees.
-  image: percent.svg
+- title: Years of experience
+  content: As a company, we are technically a startup. However, we are fully regulated in all of the EU and possess decades of experience under our belt.
+  image: calendar.svg

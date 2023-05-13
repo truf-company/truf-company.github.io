@@ -1,6 +1,6 @@
 ---
 layout: default
-contact_section: true
+contact_section: false
 ---
 <!-- ::::::::::::header:::::::::::: -->
 <header class="header">
@@ -8,9 +8,9 @@ contact_section: true
         {% include navbar.html %}
         <!-- ::::::::::::header  content:::::::::::: -->
         <div class="header__left--content">
-            <h1>Reach financial freedom <span>with ease</span></h1>
-            <p>Regardless of how much money you start with, we provide the know-how and automated tools to unlock your
-                financial potential!</p>
+            <h1>Take control of your <span>financial future!</span></h1>
+            <p>Regardless of how much or little money you start with, we provide the know-how and tools to
+                start building your financial independence!</p>
             <ul>
                 <li>Years of experience</li>
                 <li>Proven methodology</li>
@@ -73,9 +73,7 @@ contact_section: true
                 <img src="{{ site.baseurl }}/img/index/story/think-mobile.png" alt="mobile" class="think-mobile"/>
             </div>
             <div class="story__content--heading">
-                <h4>We are your guide to success on your lifelong journey in investing</h4>
-                <p>Our mission is to help our customers build financial independence from scratch by providing them with
-                    opportunities traditionally reserved for the wealthy.</p>
+                <h4>Our mission is to help you build financial independence from scratch</h4>
             </div>
             <div class="story__content--boxes">
                 {% for story_box in site.data.story_boxes %}
@@ -98,55 +96,61 @@ contact_section: true
             <img src="{{ site.baseurl }}/img/pricing-img.png"x alt="pricing" class="price-img"/>
         </div>
         <div class="pricing-text">
-            <h5>You should never be punished for investing.</h5>
-            <p>The only fee we charge is a management fee of less than 1% of the total value of your investments per year.</p>
+            <h5>Our advice and calculator do not cost anything. </h5>
+            <p>Going forward, when we start
+                providing an investment platform, we of course also need to make a living,
+                but our fee model will be very simple: no transaction fees for long-term
+                investments.</p>
         </div>
 
-        <div class="pricing-boxes">
-        {% for pricing in site.data.pricing %}
-            <div class="box">
-                <img src="{{ site.baseurl }}/img/index/pricing/{{ pricing.image }}" alt="{{ reviewer.title }}"/>
-                <h3>{{ pricing.title }}</h3>
-                {% for description in pricing.content %}
-                <p>{{ description }}</p>
-                {% endfor %}
-            </div>
-        {% endfor %}
-        </div>
+<!--        <div class="pricing-boxes">-->
+<!--        {% for pricing in site.data.pricing %}-->
+<!--            <div class="box">-->
+<!--                <img src="{{ site.baseurl }}/img/index/pricing/{{ pricing.image }}" alt="{{ reviewer.title }}"/>-->
+<!--                <h3>{{ pricing.title }}</h3>-->
+<!--                {% for description in pricing.content %}-->
+<!--                <p>{{ description }}</p>-->
+<!--                {% endfor %}-->
+<!--            </div>-->
+<!--        {% endfor %}-->
+<!--        </div>-->
         <img src="./img/pricing-lines.png" alt="lines" class="price-line"/>
     </div>
 
     <!-- ::::::::::::feature:::::::::::: -->
-    <div class="feature" id="features">
-        {% for feature in site.data.features %}
-        <div class="feature__box{% if feature.class %} {{feature.class}}{% endif %}">
-            <section class="feature__box--left">
-                <p class="top-text">{{ feature.title }}</p>
-                <h1>{{ feature.headline }}</h1>
-                <div class="collapse-content">
-                    {% for description in feature.content %}
-                    <p>{{ description }}</p>
-                    {% endfor %}
-                    {% include join_the_waitlist.html %}
-                </div>
-                <button class="link feature-action">
-                    <span class="find-out-more">Find out how</span>
-                    <span class="show-less">Show less</span>
-                </button>
-            </section>
-            {% if feature.image_dial %}
-            <div class="feature__box--right dial-bg">
-                <img src="{{ site.baseurl }}/img/{{ feature.image_dial }}" alt="image 1" class="dial-mobile"/>
-                <img src="{{ site.baseurl }}/img/index/dial-bg-lines.png" alt="image background" class="dial-lines"/>
-            </div>
-            {% elsif feature.image %}
-            <div class="feature__box--right"><img src="{{ site.baseurl }}/img/{{ feature.image }}" alt="image 1"/></div>
-            {% endif %}
-        </div>
-        {% endfor %}
-    </div>
+<!--    <div class="feature" id="features">-->
+<!--        {% for feature in site.data.features %}-->
+<!--        <div class="feature__box{% if feature.class %} {{feature.class}}{% endif %}">-->
+<!--            <section class="feature__box&#45;&#45;left">-->
+<!--                <p class="top-text">{{ feature.title }}</p>-->
+<!--                <h1>{{ feature.headline }}</h1>-->
+<!--                <div class="collapse-content">-->
+<!--                    {% for description in feature.content %}-->
+<!--                    <p>{{ description }}</p>-->
+<!--                    {% endfor %}-->
+<!--                    {% include join_the_waitlist.html %}-->
+<!--                </div>-->
+<!--                <button class="link feature-action">-->
+<!--                    <span class="find-out-more">Find out how</span>-->
+<!--                    <span class="show-less">Show less</span>-->
+<!--                </button>-->
+<!--            </section>-->
+<!--            {% if feature.image_dial %}-->
+<!--            <div class="feature__box&#45;&#45;right dial-bg">-->
+<!--                <img src="{{ site.baseurl }}/img/{{ feature.image_dial }}" alt="image 1" class="dial-mobile"/>-->
+<!--                <img src="{{ site.baseurl }}/img/index/dial-bg-lines.png" alt="image background" class="dial-lines"/>-->
+<!--            </div>-->
+<!--            {% elsif feature.image %}-->
+<!--            <div class="feature__box&#45;&#45;right"><img src="{{ site.baseurl }}/img/{{ feature.image }}" alt="image 1"/></div>-->
+<!--            {% endif %}-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--    </div>-->
 
     <!-- ::::::::::::category:::::::::::: -->
+    <div class="category-text">
+        <p>What we are building next</p>
+    </div>
     <div class="category">
         {% for category in site.data.index_categories %}
         <div class="category__boxes">

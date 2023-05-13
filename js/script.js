@@ -1,13 +1,25 @@
 // Slider
-const swiper = new Swiper(".review-slider", {
-  loop: true,
-  autoplay: true,
-  spaceBetween: 25,
-  speed: 1200,
-  navigation: {
-    nextEl: ".btn-right",
-    prevEl: ".btn-left",
-  },
+let swiper;
+window.addEventListener('scroll', function() {
+  const swiperContainer = document.querySelector('.review-slider');
+  const rect = swiperContainer.getBoundingClientRect();
+  const isInView = rect.top >= 0 && rect.bottom <= window.innerHeight;
+
+  if (isInView && !swiper) {
+    swiper = new Swiper(".review-slider", {
+      loop: true,
+      autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+      },
+      spaceBetween: 25,
+      speed: 1200,
+      navigation: {
+        nextEl: ".btn-right",
+        prevEl: ".btn-left",
+      },
+    });
+  }
 });
 
 window.addEventListener('load', () => {
