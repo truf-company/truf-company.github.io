@@ -1055,6 +1055,10 @@ input[type=number] {
   .footer__content .news-letter input[type=submit] {
     padding: 14px 20px;
   }
+
+  .conversion-widget input {
+    width: calc(100% - 166px);
+  }
 }
 @media screen and (max-width: 840px) {
   .container {
@@ -1208,6 +1212,13 @@ input[type=number] {
     padding-left: 15px;
     font-size: 14px;
   }
+
+  .conversion-widget input {
+    width: calc(100% - 110px);
+    padding-left: 15px;
+    font-size: 14px;
+  }
+
   .footer__content .news-letter input[type=submit] {
     padding: 14px 10px;
     font-size: 12px;
