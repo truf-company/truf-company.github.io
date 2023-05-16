@@ -4,7 +4,7 @@
   --black-200: #26221e;
   --black-300: #071009;
   --black-400: #362617;
-  --green-100: #D5E7D8;
+  --green-100: #428a4e;
   --green-200: #e4f1e6;
   --tea-100: #f5f3f1;
   --tea-200: #ebe5de;
@@ -563,7 +563,7 @@ ul.navbar__list {
 /*---------------pricing---------------*/
 .pricing {
   position: relative;
-  background-color: var(--green-100);
+  background-color: #D5E7D8;
   border-radius: 24px;
   padding: 0 25px 80px 25px;
   margin-top: 150px;
@@ -777,6 +777,64 @@ ul.navbar__list {
   line-height: 19px;
   color: rgba(84, 66, 138, 0.4);
 }
+
+.conversion-widget {
+  max-width: 555px;
+  width: 100%;
+  height: 83px;
+  z-index: 20;
+  position: relative;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: auto auto 16px;
+
+}
+
+.conversion-widget input {
+  border-radius: 100px;
+  padding: 8px 8px 8px 40px;
+  width: calc(100% - 192px);
+  height: 100%;
+  outline: none;
+  border: none;
+  display: inline-block;
+  font-weight: 500;
+  /*background-color: transparent;*/
+  background-color: white;
+  font-size: 26px;
+  line-height: 19px;
+  color: rgba(84, 66, 138, 0.4);
+}
+
+.conversion-widget button {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: var(--secondary);
+  color: var(--black-300);
+  padding: 24px 32px;
+  border: 1px solid var(--black-300);
+  border-radius: 100px;
+  display: inline-block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+
 .footer__content .news-letter input[type=email]::-moz-placeholder {
   color: currentColor;
 }

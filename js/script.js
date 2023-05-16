@@ -54,3 +54,10 @@ window.addEventListener('load', () => {
     });
   });
 });
+
+document.getElementById("conversion_button").addEventListener("click", (event)=> {
+  var incomeAmount = document.getElementById('income_amount').value;
+  if(incomeAmount !== "" && !isNaN(incomeAmount)) {
+    window.location.href = 'https://app.truf.company/#/signup?income=' + incomeAmount + '&savings_rate=20';
+  }
+});

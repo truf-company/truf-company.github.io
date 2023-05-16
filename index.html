@@ -8,15 +8,17 @@ contact_section: false
         {% include navbar.html %}
         <!-- ::::::::::::header  content:::::::::::: -->
         <div class="header__left--content">
-            <h1>Take control of your <span>financial future!</span></h1>
-            <p>Regardless of how much or little money you start with, we provide the know-how and tools to
-                start building your financial independence!</p>
+            <h1>Discover your path to <span>financial freedom!</span></h1>
+            <p>Begin by sharing your current monthly income to get a quick glimpse of your journey ahead.</p>
             <ul>
                 <li>Years of experience</li>
                 <li>Proven methodology</li>
                 <li>Lowest comparable fees</li>
             </ul>
-            {% include join_the_waitlist.html %}
+            <div class="conversion-widget">
+                <input type="number" placeholder="Enter Your Monthly Income" id="income_amount">
+                <button id="conversion_button">Find out</button>
+            </div>
         </div>
     </div>
     <div class="header__right">
