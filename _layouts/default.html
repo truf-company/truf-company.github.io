@@ -48,8 +48,10 @@
 {% if page.contact_section %}
 {% include join_long.html %}
 {% include contact.html %}
-{% else %}
+{% elsif page.join_section != false %}
 {% include join_long.html %}
+{% else %}
+{% include footer.html %}
 {% endif %}
 <!-- ::::::::::::javascript:::::::::::: -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

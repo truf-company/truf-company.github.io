@@ -4,6 +4,9 @@ layout: default
 <!-- ::::::::::::Blog header:::::::::::: -->
 {% include navbar.html %}
 <header class="blog-header">
+    {% if page.headLine %}
+    <h1 class="desc">{{page.headLine}}</h1>
+    {% else %}
     <div>
         <small>Learn with us</small>
         <h1>TRUF blog</h1>
@@ -19,8 +22,16 @@ layout: default
         <p class="desc">Learn more how financial world works and grow your knowledge with us</p>
         {% endif %}
     </div>
+    {% endif %}
 </header>
 <!-- :::::blog detail content::::::: -->
+{% if page.timeText %}
+<section class="blog-post">
+    <div class="blog-post-date">
+        <p>{{ page.timeText }}</p>
+    </div>
+</section>
+{% endif %}
 {% if page.readTime %}
 <section class="blog-post">
     <div class="blog-post-date">
