@@ -3,12 +3,12 @@ layout: blog
 toc: true
 title:  "Where to invest?"
 subtitle: "A guide for young people"
-titleImage: "blog/confused-man.png"
+titleImage: "blog/confused_man.png"
 tags:
     - Investing
 readTime: 4min
 date:   2023-04-19 09:00:52 +02001
-largeImage: "blog/confused-man.png"
+largeImage: "blog/confused_man.png"
 ---
 ## Introduction
 
