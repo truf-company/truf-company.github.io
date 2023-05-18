@@ -3,7 +3,7 @@ layout: blog
 toc: true
 title:  "Understanding"
 subtitle: "Financial Independence"
-titleImage: "blog/.png"
+titleImage: "blog/cash_and_coins.png"
 tags:
     - Education
 readTime: 2min
